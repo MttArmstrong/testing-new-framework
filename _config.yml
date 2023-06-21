@@ -8,10 +8,10 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor traning for instance)
 # incubator: Carpentries Incubator
-carpentry: "swc"
+carpentry: "intersect"
 
 # Overall title for pages.
-title: "Lesson Title"
+title: "Software Licensing"
 
 # Life cycle stage of the lesson
 # See this page for more details: https://cdh.carpentries.org/the-lesson-life-cycle.html
@@ -28,12 +28,13 @@ kind: "lesson"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: <USERNAME>/<PROJECT>
+repository: INTERSECT-training/software-licensing
 
 # Email address, no mailto:
-email: "team@carpentries.org"
+email: ""
 
 # Sites.
+intersect_site: "https://intersect-training.org/"
 coc: "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html"
 amy_site: "https://amy.carpentries.org/"
 carpentries_github: "https://github.com/carpentries"
