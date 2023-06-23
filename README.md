@@ -1,12 +1,11 @@
-# FIXME Lesson title
+# Software Licensing
 
-This repository generates the corresponding lesson website from [INTERESECT](https://intersect-training.org/) repertoire of lessons.
-The lesson format and structure is based off the [The Carpentries](https://carpentries.org/).
+This repository generates the corresponding lesson website [Software Licensing](https://intersect-training.org/software-licensing/), which is part of the [INTERESECT](https://intersect-training.org/) training collection.
+The lesson format and structure are based on [The Carpentries](https://carpentries.org/).
 
 ## Contributing
 
-We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
-questions, concerns, or experience any difficulties along the way.
+We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have anyquestions, or concerns, or experience any difficulties along the way.
 
 Please see the current list of [issues][FIXME] for ideas for contributing to this
 repository. For making your contribution, we use the GitHub flow, which is
@@ -22,19 +21,27 @@ If you contribute to this lesson and would like to acknowledge specific funding 
 The contributing author(s) to this lesson are:
 
 * David E. Bernholdt, Oak Ridge National Laboratory, bernholdtde@ornl.gov
+* Lauren E Milechin, Massachusetts Institute of Technology, lauren.milechin@mit.edu
+* Dave Rumph, Caltech, drumph@caltech.edu
 * Michael A. Heroux, Sandia National Laboratories, maherou@sandia.gov
 * James Willenbring, Sandia National Laboratories, jmwille@sandia.gov
 
 
 ## Maintainer(s)
 
-There are no current maintainers of this lesson. If you would like to serve as a maintainer please [contact us](https://intersect-training.org/contact/).
+The current maintainer of this lesson is:
+
+* [David E. Bernholdt](https://github.com/bernhold)
+
+ If you would like to serve as a maintainer please [contact us](https://intersect-training.org/contact/).
 
 
 ## Citation
 
-To cite this lesson, please consult with [CITATION](CITATION).
+To cite this lesson, please consult [CITATION](CITATION).
 
 ## Funding
 
 The INTERSECT project is supported by NSF awards [2017424](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2017424) and [2017259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2017259).
+
+Portions of this lesson are based on the *An Introduction to Software Licensing* module in the [Better Scientific Software tutorials](https://bssw-tutorial.github.io/), developed by the [IDEAS Productivity project](https://ideas-productivity.org/). This work was supported by the U.S. Department of Energy Office of Science, Office of Advanced Scientific Computing Research (ASCR), and by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy Office of Science and the National Nuclear Security Administration.
