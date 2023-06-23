@@ -21,8 +21,9 @@ If you contribute to this lesson and would like to acknowledge specific funding 
 
 The contributing author(s) to this lesson are:
 
-* FIXME
-* FIXME
+* David E. Bernholdt, Oak Ridge National Laboratory, bernholdtde@ornl.gov
+* Michael A. Heroux, Sandia National Laboratories, maherou@sandia.gov
+* James Willenbring, Sandia National Laboratories, jmwille@sandia.gov
 
 
 ## Maintainer(s)
