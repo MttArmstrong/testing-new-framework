@@ -11,14 +11,6 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Learning Objectives
-
-* Understand the role of copyright and licenses in guiding how developers approach contributing to the code and users approach using it.
-* Understand why open-source licenses are popular in scientific software.
-* Understand why using existing open-source licenses is preferable to creating new ones.
-* Understand what tools are available to help select open-source licenses.
-* Understand the necessity and value of clearly documenting the choice of license in your code repository and in the code itself.
-
 ## Outline
 
 * Since 1989 (in the U.S.) creative works, including software, are “born copyrighted”.
@@ -26,48 +18,47 @@ keypoints:
     * Most employment contracts include clauses about intellectual property rights (copyright, patents, trademarks)
     * The default “license” associated with copyright is “all rights reserved” to the holder of the copyright.
 
-## Copyright, Patents, Trademarks, and Licenses
+## Terminology: copyright, patents, trademarks, and licenses
 
-* **Copyright**  grants the creator of an  **original work** exclusive rights to its use and distribution, including limits on derivative works
-* A  **patent**  grants the inventor of  **something new, useful, and non-obvious** the rights to its production, use, and distribution
-* A  **trademark**  is a  **sign, design, or expression** which identifies products or services from a particular source, as distinguished from other sources
-* **Licenses**  are used to transfer (selected) rights in a work, invention, or mark from one party to another
-  * Software licenses are mostly about copyright, but can contain clauses on patents and trademarks too
+Intellectual property (IP) is a general term referring to intangible creations of human intellect.  
+There are multiple types of IP recognized in law in most jurisdictions.
+The types that are most often associated with software include:
 
-## Your Software Starts Out Copyrighted
+* **Copyright** grants the creator of an original work (e.g., a software package) exclusive rights to its use and distribution, including limits on derivative works.
 
-* Under the law, the software you write is subject to  **copyright on creation**
-  * You don’t have to do anything special to claim copyright
-  * Unless you specify some license, all rights are reserved to the owner of the copyright
-* The copyright owner may be  **you,** or **your employer**
-  * “Work for hire” (i.e., as part of your job) is probably owned by your employer.  Employment contracts often make IP rights explicit.
-  * Question 1: Who owns the rights in the work you create?
-  * Homework: Find out!
-  * If your employer owns the copyright, you probably have to get formal permission to license and distribute your software
-* Exception: Works created by the US government cannot be copyrighted
-  * They are considered to be in the public domain
-    * Comment: Originally to ensure public access to the US legal code
+* A  **patent** grants the inventor of something new, useful, and non-obvious (which may be embodied in software) the rights to its production, use, and distribution.
 
-## The Licensing Spectrum
+* A  **trademark** is a sign, design, or expression which identifies products or services from a particular source (e.g., your software), as distinguished from other sources.
 
-Proprietary or Closed Licenses
+**Licenses** are a legal tool to transfer (selected) rights in a work, invention, or mark (forms of intellectual property) from one party to another.  
+When we talk about licenses for software, we're primarily focused on copyright. 
+But some software licenses include clauses pertaining to patents and trademarks related to that software.
 
-Free or Open Licenses
+## Your software starts out copyrighted
 
-All Rights Reserved
+Under the law, the software you write is subject to **copyright on creation**.
+You don’t have to do anything special to claim copyright.
 
-**Free vs Open Source?**
+Normally, the creator of the work owns the copyright in the work.  
+But it is "work for hire" (i.e., as part of your job), often the employer will own the copyright.
+Employment contracts often make IP rights explicit.
+If your employer owns the copyright, you probably have to get formal permission to license and distribute your software.
 
-* “Free” in licensing discussions should refer strictly to “freedom” (to do certain things with the software)
+Unless you specify some license for your software, all rights in the software are reserved to the copyright owner.
 
-* Often gets conflated with “free as in beer”, muddling the discussion.  Hence some prefer term “open source”
+> ## Special case: U.S. government works
+> 
+> Works created by the US government (and its employees) cannot be copyrighted.
+> They are considered to be in the **public domain**.
+> The motivation for this was to ensure public access to the U.S. legal code.
+{: .callout}
 
-**Major names in Free/Open Source Software:**
+> ## Activity
+>
+> Who owns the copyright in the software you create?  You or your employer?
+> 
+> If you don't know the answer, it might be useful to find out. If you don't have a copy of your employment contract, consider asking your Human Resources department for a copy. Your supervisor or your institutional Technology Transfer office may also be able to help you answer this question.
+{: .challenge}
 
-* Free Software Foundation (FSF) [http://fsf.org/licensing](http://fsf.org/licensing)
-
-* Open Source Initiative (OSI) [http://opensource.org](http://opensource.org/)
-
-*Common misconception: Nothing in the definition of free or open source software prevents you from making money from it! (more later)*
 
 {% include links.md %}
