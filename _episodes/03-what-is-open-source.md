@@ -14,10 +14,7 @@ keypoints:
 
 * The de facto arbiter of whether a license is, in fact, “open source” is the Open Source Initiative (OSI, [https://opensource.org/](https://opensource.org/)).  
     * The Free Software Foundation (FSF) is also influential in open source licensing discussions ([https://www.fsf.org/licensing/](https://www.fsf.org/licensing/)). 
-    * Choose an existing OSI-approved license rather than creating a new one.  There are ~80 to choose from that cover most situations.
-    * OSI has been reluctant to add to the proliferation of open source licenses by approving new ones.
-    * Some publication venues (e.g., Journal of Open Source Software), will only accept OSI-approved licenses.
-    * There are tools available to walk you through decision trees to select open source licenses, such as [https://choosealicense.com/](https://choosealicense.com/).  They can be very useful.
+
 
 Open source is a popular choice in scientific research, for reasons we'll explore in the next episode.
 But before that, let's take a deeper look at what we mean by "open source" and some nuances in the spectrum of open-source software licenses.
@@ -145,7 +142,7 @@ Without this clause, commercial uses are allowed.
 
 The Creative Commons has developed a set of [badges](https://creativecommons.org/about/downloads#badges) and [icons](https://creativecommons.org/about/downloads#icons) that provide quick visual indicators of the chosen license.
 For example, this lesson is licensed under CC BY 4.0:
-![CC BY badge]({{ page.root }}/fig/cc-by.png)
+![CC BY badge]({{ page.root }}/fig/cc-by.png){: width=50%}
 
 There is also a "CC0 Public Domain Dedication" which can be used to indicate intent to place the artifact in the public domain.
 However this does not satisfy the legal requirements in all jurisdictions, so if you're serious about placing a work in the public domain, you might want to investigate further.

@@ -8,7 +8,7 @@ title: Additional Resources
 
 * [http://contributoragreements.org/](http://contributoragreements.org/), [https://developercertificate.org/](https://developercertificate.org/) and [http://ebb.org/bkuhn/blog/2014/06/09/do-not-need-cla.html](http://ebb.org/bkuhn/blog/2014/06/09/do-not-need-cla.html)
 
-* [US DOE ASCR (open source) software policy](https://science.energy.gov/~/media/ascr/pdf/research/docs/Doe_lab_developed_software_policy.pdf)
+* [US DOE ASCR (open source) software policy](https://science.osti.gov/-/media/ascr/pdf/research/docs/Doe_lab_developed_software_policy.pdf)
 
 * *Your institution’s Technology Transfer Office (or equivalent)*
 

@@ -1,5 +1,5 @@
 ---
-title: "Open Source Licenses for Scientific Software"
+title: "Why Choose Open Source Licensing?"
 teaching: 0
 exercises: 0
 questions:
@@ -10,39 +10,50 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Learning Objectives
-
-* Understand the role of copyright and licenses in guiding how developers approach contributing to the code and users approach using it.Understand why open-source licenses are popular in scientific software.
-* Understand why using existing open-source licenses is preferable to creating new ones.
-* Understand what tools are available to help select open-source licenses.
-* Understand the necessity and value of clearly documenting the choice of license in your code repository and in the code itself.
-
 ## Outline
 
 * Open source licensing is widely (though not exclusively) used in the scientific software community.
     * Visibility into the software producing scientific results is considered by most to be consistent with the scientific method.
     * Many may see open source licensing as an approach to sustainability of the software – getting others to contribute.  This is magical thinking, and rarely happens in practice. Open source licensing is (probably) necessary, but not sufficient to attract outside contributors.
 
+## The philosophical reasons
 
-## Considerations Favoring Open Source
+One of the most common reasons that developers of scientific software choose open-source over proprietary licensing is because they consider it to be consistent with the scientific method.
+The scientific method requires transparency and reproducibility, and in computationally-based science, this implies that the "apparatus" (i.e., the software) be available for others to inspect and understand, and that others should be able to use it to reproduce the relevant (computational) experiments.
 
-* Challenges of managing and archiving the paperwork associated with proprietary licenses
+Another philosophical reason that many cite is that the results of publicly-funded research (e.g., software produced with research funding) should be publicly available.
 
-* Explicit license agreements can inhibit (legal) use of software
+And, finally, there's the altruistic reason that releasing the software as open source may help others.
 
-* I want to support peer review and reproducibility in science
+## Other considerations favoring open source
 
-* My sponsor requires that I release my software as open source
+Even if you're not completely swayed by the philosophical arguments above, there may be other, more practical reasons to lean towards open-source licensing.
 
-* I believe that the results of publicly-funded research should be publicly available
+One very simple, but often compelling, reason is that the sponsor of your research may require (or encourage) you to release your software products as open source.
+For example, within the U.S. Department of Energy, several programs have adopted such a [policy](https://science.osti.gov/-/media/ascr/pdf/research/docs/Doe_lab_developed_software_policy.pdf).
 
-* I want to build a self-sustaining community around my software
+Another common reason to favor open-source licensing is to facilitate building a community around your software.
+Understandably, an open and accessible code base is likely to be more attractive and have a lower barrier to entry for potential contributors than closed source.
+On the other hand, having to complete an explicit license agreement is a barrier to use (or contribution) of closed-source software.
+At most institutions, only a few people are authorized to sign legal agreements on behalf of the organization.
+Usually a license agreement would have to be reviewed and executed by an IP lawyer, which can cause delays.
+In some cases, the institution and the licensor may be unable to come to agreement and it may be impossible to obtain the license.
 
+And, on a related note, if you're using a proprietary license, you have to manage and archive all of the paperwork associated with those licenses so that you know who your licenses are.
+Some find that this is more trouble than it's worth.
 
-## Consideration: Software Business Models
+## Debunking some arguments *against* open-source
+
+There are also a variety of reasons that some people argue against open-sourcing software, which don't hold up if you dig a little deeper.
+
+### Myth: You can't sell open-source software
+
+It is a common misconception that open-sourcing software prevents you from making money off of it.
+In fact, there are many different business models that are commonly used around software, and nearly all of them are as applicable to open-source as to proprietary software.
+
 
 | Approach | Proprietary | Copyleft  | Permissive  |
-| :-: | :-: | :-: | :-: |
+| :-- | :-: | :-: | :-: |
 | Sell the software | yes | yes | yes |
 | “Fremium” or “dual licensing” allows free use by some, paid by others | yes | yes | yes |
 | Relicense to proprietary | n/a | no | yes |
@@ -52,41 +63,56 @@ keypoints:
 | Sell software-as-a-service (SaaS) | yes | yes | yes |
 | Sell the research | yes | yes | yes |
 
-## Consideration: Don’t Want Others to Profit from my Open Source Software
+### I don't want others to profit from my open-source software
 
-* A permissive license allows someone else to take derivatives proprietary
-* A copyleft license will prevent that
+If you're using a permissive license, it is possible for someone else to take derivatives proprietary.
+But, with the wealth of permissively licensed software out there, this is not a common experience.
+If you're still concerned, you might prefer a copyleft license, which will prevent this scenario.
 
-**But there may be other considerations…**
+But there might be other considerations at play, too.
+For example, what if you *do* want a commercial entity to use your software -- for example, for it to be adopted by a computer vendor or distributed in a Linux or similar large distribution of software?
+This is a way of getting your software broader exposure and broader distribution.
+Assuming you're not expecting financial compensation, this kind of collaboration becomes much easier with open-source licensing, and more specifically with *permissive* licenses.
 
-* What if you  *do*  want a commercial entity to use your software?
-  * Exposure, broader distribution
-* Copyleft is scary to many commercial entities
-  * How far does the viral license reach into other parts of the product?
-  * Legal opinions differ, no case law yet
-    * Lawyers will tend toward a conservative answer: avoid copyleft software
-    * *Experience: some companies will not consider working with copyleft software*
-    * *Experience: some companies consider staff working on copyleft software to be “contaminated” and will not allow them work on other software*
-* Even in non-commercial environments, copyleft may raise compatibility concerns
+#### Commercial entities prefer permissive licenses
 
-## The Software-as-a-Service Conundrum
+Many commercial entities find copyleft licenses scary.
+They are concerned about how far the viral nature of copyleft licenses reaches into other parts of their product.
+Legal opinions on this differ, and that is little or no case law on this yet.
+Since lawyers tend towards conservative answers, they will often avoid their commercial clients to avoid copyleft software.
+As a result, many companies will not consider working with copyleft software, only permissively licensed software.
+Some (typically larger) companies consider staff working on copyleft software to be "contaminated" and will not allow them to work on other software.
 
-* Many software-as-a-service (SaaS) products make extensive use of open source software
-* Some software developers don’t like the possibility that another company can trivially monetize (other people’s) software by turning it into a SaaS product
-  * It may compete with their own SaaS offerings
-  * The SaaS provider can keep enhancements proprietary and while making the benefits available in the SaaS product
-* Attempts to curb this via licensing result in licenses that are not open source
-  * In some cases, key modules are changed to proprietary licenses, while others remain open
-* See: [https://arstechnica.com/information-technology/2019/10/is-the-software-world-taking-too-much-from-the-open-source-community/](https://arstechnica.com/information-technology/2019/10/is-the-software-world-taking-too-much-from-the-open-source-community/)
+#### The software-as-a-service conundrum
 
-## Consideration: Protecting my Intellectual Property
+"Software-as-a-service" (SaaS) is a popular way of making software products available today.
+Many SaaS products make extensive use of open-source software.
+Some developers don't like the possibility that another company can trivially monetize (other people's) software by turning it into a SaaS product.
+It may compete with the developer's own SaaS offering.
+And the SaaS provider can keep enhancements proprietary while making the benefits available in the SaaS product.
 
-* If I make my source code freely available, then others can use the novel ideas embodied in it to “scoop” me
-* Proprietary licenses (obviously) allow you to keep source private
-* Open source licenses don’t require that you make derived works public, only that  *if*  you do, you make the source available
-* Delay public release until you’ve had a reasonable chance to exploit the results of your work
-  * Until initial papers are published
-  * Fixed time period (e.g., one year)
-    * A similar compromise is sometimes used in academic publishing: sponsor may want open access but allow publisher a proprietary exploitation period (often 1 year) before making it openly available
+Use in a SaaS product is not considered distribution of the software per se.
+But some licenses, such as the [GNU Affero General Public License](https://opensource.org/license/agpl-v3/) include "network" clauses which require that the source be made available to remote users of the service.
+Other ways of addressing these concerns tend to result in licenses that are not open source.
+In some cases, key modules are changed to proprietary licenses while others remain open.
+
+An article on the [Ars Technica](https://arstechnica.com/) website discusses the SaaS conundrum further: [In 2019, multiple open source companies changed course—is it the right move?](https://arstechnica.com/information-technology/2019/10/is-the-software-world-taking-too-much-from-the-open-source-community/).
+
+### I want to protect my intellectual property
+
+Another concern that people sometimes raise about openly accessible code is that others can use the novel ideas embodied in it to "scoop" them.
+Proprietary licenses, by their nature, allow you to keep the source code private, so you can avoid this concern.
+But there are also strategies that you can use with open source to provide functional protection.
+
+First, as we discussed earlier, open source licenses td *not* require that you make derived works public, only that *if* you do, you make the source available.
+So the basic strategy is not to disclose your novel derived work until you've had a reasonable chance to exploit the results of your work.
+For example, you might wait until you've published the initial papers about the method and results that might not be obtainable with other methods.
+Or you might give yourself (or your team) a fixed "exploitation period" (e.g., one year) before publishing the source code.
+This is similar to a compromise that's often used in academic publishing, where a sponsor wants the publications to be open access, but they allow the publisher a proprietary exploitation period (also often one year) before making the document openly available.
+
+> ## Discussion
+>
+> Have you ever been involved in a discussion of proprietary versus open source licensing for a software package?  What arguments were made in favor of proprietary licensing?  What arguments were made in favor of open-source?  Was there a particular argument that carried the day, in either direction?
+{: .discussion}
     
 {% include links.md %}

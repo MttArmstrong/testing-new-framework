@@ -19,6 +19,10 @@ keypoints:
 
 ## Outline
 
+* Choose an existing OSI-approved license rather than creating a new one.  There are ~80 to choose from that cover most situations.
+* OSI has been reluctant to add to the proliferation of open source licenses by approving new ones.
+* Some publication venues (e.g., Journal of Open Source Software), will only accept OSI-approved licenses.
+* There are tools available to walk you through decision trees to select open source licenses, such as [https://choosealicense.com/](https://choosealicense.com/).  They can be very useful.
 * The primary decision point in open source licensing is “permissive” versus “restrictive” (also referred to as “copyleft” or “viral”).  As with all software licensing, there are many considerations that may apply.
     * Permissive licenses allow derivative works to be released under a different license, even a proprietary one (though in practice, this is rare). Copyleft licenses require that derivative works be released under the same license as the original, although they do not require the release of the derivative works. (They can be kept private.)
     * Because of the “viral” nature of copyleft licenses, many commercial organizations prohibit use or dependence on copyleft-licensed software or libraries. For example, if you want an HPC vendor to be able to take your numerical library and optimize it for their platform and offer it as a “built-in” part of their software stack, you should probably choose a permissive license.
