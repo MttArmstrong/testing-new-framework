@@ -10,20 +10,6 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Patent Clauses in Software Licenses
-
-* Software patents can be a serious consideration today
-  * Regardless of philosophical arguments for or against, software patents are a reality
-  * If you’re using a piece of software (even open source) that is covered by a patent and you don’t have a license for the patent, you’re infringing
-  * Not being aware of a patent does not excuse the infringement
-  * You can be sued for monetary damages
-* Many common software licenses are silent on patents
-  * Especially older ones (e.g., BSD, GPLv2)
-* Some newer licenses do include patent clauses
-  * Usually a royalty-free license to use patented content (e.g. Apache 2.0, GPLv3)
-  * Some explicitly say that they do not grant any patent rights (e.g., BSD 3-Clause Clear)
-  * Or retaliation clauses: “if you sue me for patent infringement, you can’t use this software”
-
 ## License Compatibility
 
 * In practice, most software is a  **combined work** of some kind

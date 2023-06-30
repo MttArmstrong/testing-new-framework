@@ -15,6 +15,9 @@ keypoints:
 * Open source licensing is widely (though not exclusively) used in the scientific software community.
     * Visibility into the software producing scientific results is considered by most to be consistent with the scientific method.
     * Many may see open source licensing as an approach to sustainability of the software – getting others to contribute.  This is magical thinking, and rarely happens in practice. Open source licensing is (probably) necessary, but not sufficient to attract outside contributors.
+    * Permissive licenses allow derivative works to be released under a different license, even a proprietary one (though in practice, this is rare). Copyleft licenses require that derivative works be released under the same license as the original, although they do not require the release of the derivative works. (They can be kept private.)
+    * Because of the “viral” nature of copyleft licenses, many commercial organizations prohibit use or dependence on copyleft-licensed software or libraries. For example, if you want an HPC vendor to be able to take your numerical library and optimize it for their platform and offer it as a “built-in” part of their software stack, you should probably choose a permissive license.
+
 
 ## The philosophical reasons
 
@@ -30,13 +33,13 @@ And, finally, there's the altruistic reason that releasing the software as open 
 Even if you're not completely swayed by the philosophical arguments above, there may be other, more practical reasons to lean towards open-source licensing.
 
 One very simple, but often compelling, reason is that the sponsor of your research may require (or encourage) you to release your software products as open source.
-For example, within the U.S. Department of Energy, several programs have adopted such a [policy](https://science.osti.gov/-/media/ascr/pdf/research/docs/Doe_lab_developed_software_policy.pdf).
+At this point in time, many (most) U.S. federal research sponsors are encouraging "open science" with policies that explicitly or implicitly encourage open source.
+Within the U.S. Department of Energy, several programs have adopted a [policy](https://science.osti.gov/-/media/ascr/pdf/research/docs/Doe_lab_developed_software_policy.pdf) that prefers open-source release unless there is a reason not to do so.
 
 Another common reason to favor open-source licensing is to facilitate building a community around your software.
 Understandably, an open and accessible code base is likely to be more attractive and have a lower barrier to entry for potential contributors than closed source.
 On the other hand, having to complete an explicit license agreement is a barrier to use (or contribution) of closed-source software.
-At most institutions, only a few people are authorized to sign legal agreements on behalf of the organization.
-Usually a license agreement would have to be reviewed and executed by an IP lawyer, which can cause delays.
+At most institutions, only a few people are authorized to sign legal agreements on behalf of the organization.Usually, a license agreement would have to be reviewed and executed by an IP lawyer, which can cause delays.
 In some cases, the institution and the licensor may be unable to come to agreement and it may be impossible to obtain the license.
 
 And, on a related note, if you're using a proprietary license, you have to manage and archive all of the paperwork associated with those licenses so that you know who your licenses are.
@@ -65,7 +68,7 @@ In fact, there are many different business models that are commonly used around 
 
 ### I don't want others to profit from my open-source software
 
-If you're using a permissive license, it is possible for someone else to take derivatives proprietary.
+If you're using a permissive license, someone else can take derivatives proprietary.
 But, with the wealth of permissively licensed software out there, this is not a common experience.
 If you're still concerned, you might prefer a copyleft license, which will prevent this scenario.
 
@@ -92,7 +95,7 @@ It may compete with the developer's own SaaS offering.
 And the SaaS provider can keep enhancements proprietary while making the benefits available in the SaaS product.
 
 Use in a SaaS product is not considered distribution of the software per se.
-But some licenses, such as the [GNU Affero General Public License](https://opensource.org/license/agpl-v3/) include "network" clauses which require that the source be made available to remote users of the service.
+But some licenses, such as the [GNU Affero General Public License](https://opensource.org/license/agpl-v3/) include "network" clauses that require that the source be made available to remote users of the service.
 Other ways of addressing these concerns tend to result in licenses that are not open source.
 In some cases, key modules are changed to proprietary licenses while others remain open.
 
@@ -104,15 +107,44 @@ Another concern that people sometimes raise about openly accessible code is that
 Proprietary licenses, by their nature, allow you to keep the source code private, so you can avoid this concern.
 But there are also strategies that you can use with open source to provide functional protection.
 
-First, as we discussed earlier, open source licenses td *not* require that you make derived works public, only that *if* you do, you make the source available.
+First, as we discussed earlier, open source licenses do *not* require that you make derived works public, only that *if* you do, you make the source available.
 So the basic strategy is not to disclose your novel derived work until you've had a reasonable chance to exploit the results of your work.
 For example, you might wait until you've published the initial papers about the method and results that might not be obtainable with other methods.
 Or you might give yourself (or your team) a fixed "exploitation period" (e.g., one year) before publishing the source code.
 This is similar to a compromise that's often used in academic publishing, where a sponsor wants the publications to be open access, but they allow the publisher a proprietary exploitation period (also often one year) before making the document openly available.
 
+## Licensing as a tool
+
+As we've suggested, the licensing of your software should be viewed as a tool to help you pursue your goals for the software and the associated project.
+
+Basically, you want to ask yourself (and your collaborators) what rights you want to grant to others or retain for yourselves"
+
+  * Who can use the program?
+  * Can users see the source code?
+  * Can users modify the source code?
+  * Can the users redistribute original or modified code?
+
+And think about how these choices will affect your project, would-be contributors to the software, and would-be users of the software.
+
 > ## Discussion
 >
 > Have you ever been involved in a discussion of proprietary versus open source licensing for a software package?  What arguments were made in favor of proprietary licensing?  What arguments were made in favor of open-source?  Was there a particular argument that carried the day, in either direction?
 {: .discussion}
+
+## Avoid magical thinking: Open-source is no guarantee of sustainability or community
+
+Open-source is a great tool to help you build a community around your software.
+But you shouldn't imagine that simply slapping an open source license on your software makes it sustainable.
+Besides having software that is potentially useful to others, you'll need to work at it if you want to build a community that contributes to and helps support your software.
+Many open source software projects never receive any outside contributions.
+In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it too to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
+
+> ## Discussion
+> 
+> Does your research community include any truly community-based software packages?  Packages which are both widely used, *and* widely contributed to?
+>
+> If you happen to involved in such a project, what is your role?  User? Contributor?  Maintainer?  What is your experience with the community?
+{: .discussion}
+
     
 {% include links.md %}

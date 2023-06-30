@@ -10,13 +10,6 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Learning Objectives
-
-* Understand the role of copyright and licenses in guiding how developers approach contributing to the code and users approach using it.Understand why open-source licenses are popular in scientific software.
-* Understand why using existing open-source licenses is preferable to creating new ones.
-* Understand what tools are available to help select open-source licenses.
-* Understand the necessity and value of clearly documenting the choice of license in your code repository and in the code itself.
-
 ## Outline
 
 * Choose an existing OSI-approved license rather than creating a new one.  There are ~80 to choose from that cover most situations.
@@ -24,53 +17,115 @@ keypoints:
 * Some publication venues (e.g., Journal of Open Source Software), will only accept OSI-approved licenses.
 * There are tools available to walk you through decision trees to select open source licenses, such as [https://choosealicense.com/](https://choosealicense.com/).  They can be very useful.
 * The primary decision point in open source licensing is “permissive” versus “restrictive” (also referred to as “copyleft” or “viral”).  As with all software licensing, there are many considerations that may apply.
-    * Permissive licenses allow derivative works to be released under a different license, even a proprietary one (though in practice, this is rare). Copyleft licenses require that derivative works be released under the same license as the original, although they do not require the release of the derivative works. (They can be kept private.)
-    * Because of the “viral” nature of copyleft licenses, many commercial organizations prohibit use or dependence on copyleft-licensed software or libraries. For example, if you want an HPC vendor to be able to take your numerical library and optimize it for their platform and offer it as a “built-in” part of their software stack, you should probably choose a permissive license.
 
-## Choosing a License
+## Don't reinvent the license
 
-## Considerations in Choosing a License
+If you want to use an open source license with your software, the first advice is to use an existing license rather than inventing your own.
+The OSI has approved more than 80 different licenses as qualifying as open source.
+They cover a wide range of situations, and with that many options, you're pretty unlikely to have a need that's not already covered.
+Moreover, the OSI feels that there are too many open-source licenses already, and has been reluctant to review and approve new licenses to control the proliferation.
 
-* What rights do you want to retain or grant?
-  * Who can use the program? (proprietary vs open)
-  * Can users see the source code? (proprietary vs open)
-  * Can users modify the source code? (proprietary vs open)
-  * Can the users redistribute original or modified code? (proprietary vs open)
-  * Can modified code be relicensed? (permissive vs copyleft)
-* Compatibility with software under other licenses
-  * Permissive licenses have fewer issues
-  * [http://www.fsf.org/licensing/](error:ppt-link-parsing-issue)
-* Labeling of derived works
-  * Derived works must be identifieddifferently than original work
-* Patent grant/retaliation
-* Expectations of the community you want to engage?
+Another reason to choose an OSI-approved license is that there are some publication venues (e.g., the [Journal of Open Source Software](https://joss.theoj.org/) (JOSS)) that will only accept OSI-approved licenses.  
+There is at least one case in which JOSS rejected a submission for a software package that was licensed under an institution-specific variant of the [3-Clause BSD License](https://opensource.org/license/bsd-3-clause/) which was not OSI-approved.
+While there are other options besides JOSS for publishing your software, it is important to be aware of such restrictions when selecting a license.
 
-* *Use an existing free/open source license rather than inventing a new one!*
-  * *FSF and OSI certify many existing licenses (~80) as meeting their criteria*
+## Considerations in selecting an open-source license
 
-## Popular OSI-Approved Licenses
+This most significant decision in open-source is between permissive or copyleft licenses.
+Technically, this is a decision as to whether derivative works can be changed to a new license or not.
+But it can have knock-on effects, particularly in the area of license compatibility.
 
-| License | Type | GPL-Compatible | Patent Grant |
-| :-: | :-: | :-: | :-: |
-| Apache License 2.0  | Permissive | v3,not v2 | yes |
-| BSD 2-Clause and 3-Clause licenses | Permissive | yes | silent |
-| GNU General Public License (GPL) v3 | Copyleft | yes | yes |
-| GNU Library or "Lesser" General Public License (LGPL) v3 | Weak Copyleft | yes | yes |
-| MIT license (MIT) | Permissive | yes | silent |
-| Mozilla Public License 2.0 | Permissive | yes | yes |
-| Common Development and Distribution License | Permissive | no | yes |
-| Eclipse Public License 2.0 | Weak Copyleft | yes | yes |
-| Affero General Public License v3 (network use == distribution) | Copyleft | yes | yes |
+License compatibility comes into play when you start combining software to get your work done.
+As we discussed earlier, there are different interpretations of what kinds of combinations do or do not result in derived works which, under copyleft licensing, might become subject to the terms of the original work's license.
+Permissive licenses have fewer compatibility issues.
 
-## ChooseALicense.com (by GitHub)
+On a related note it is worth considering the norms of the community you and your software are engaging with.
+If, for example, "everyone" in your field uses a particular license, it may be easier for your software to be accepted by others if you follow the same approach -- unless, of course, you have strong reasons for doing otherwise.
 
-* Primarily a decision-tree approach to helping you choose a license
-* But backed by a repository with analysis of 30+ widely used licenses
-* **The easiest way to access the whole list is to go to the “Appendix”**
-  * **[https://choosealicense.com/appendix/](https://choosealicense.com/appendix/)**
-  * A portion of the Appendix is shown at left
-* This is implemented in a GitHub repository with Jekyll, and open to pull requests!
+Another clause that appears in many open-source licenses has to do with the labeling of derived works, requiring that derived works be identified differently than the original.
+Why would we want this?
+What if someone took your code, and in modifying it introduced a bug that made all of the results it produced subtly wrong?
+That could easily give your code a bad name -- unless the problem code had a *different* name that enabled the community to easily distinguish them.
 
-![]({{ page.root }}/fig/licensing1.png)
+## Patents in software licenses
+
+A patent is a different form of intellectual property than a creative work like a piece of software.
+But they are often connected in the software, and increasingly software licenses also include patent-related clauses.
+
+Patents cover an invention which is useful and non-obvious.  
+That invention could be embodied in software.
+Some people make strong arguments against the idea that inventions embodied in software should be patentable at all.
+But in the legal sense, they are a reality.
+If you're using a piece of software (even open source) that is covered by a patent and you don't have a license for the patent, you're infringing.
+Not being aware of the patent does not excuse the infringement.
+And you could be sued for monetary damages.
+
+Historically, many open-source licenses were silent on patents -- they said nothing at all about them.
+More recently, since the courts have decided that software inventions are patentable, some open-source licenses have started including patent-related clauses.
+
+The most common type of patent clause grants royalty-free (i.e. no cost) right to use patented content owned by the copyright holder(s) (e.g. [Apache 2.0](https://opensource.org/license/apache-2-0/), [GPLv3](https://opensource.org/license/gpl-3-0/)).
+(Obviously the copyright holders can't provide licenses for other people's patents -- which is important to remember.  
+It is still possible that a code has (presumably unknowingly) infringed on some other patent.)
+Another form of patent clause involves retaliation, effectively saying "if you sue me for patent infringement, your license to use this software is terminated", (e.g. [Apache 2.0](https://opensource.org/license/apache-2-0/).
+A weak retaliation clause is triggered by an action related to the specific software, whereas a strong retaliation clause is triggered by any patent action against the licensor.
+
+Although it is no longer listed by the OSI, there is also a [BSD 3-Clause Clear License](https://choosealicense.com/licenses/bsd-3-clause-clear/) which explicitly states that no patent rights are granted by the license.
+
+## Popular OSI-approved licenses
+
+Some of the most widely used OSI-approved licenses are listed below, along with notes as to their permissiveness, compatibility, and what type of patent clause(s) it has.
+Any license on this list is a good choice because they are among the most popular and well-known of open-source licenses.
+
+| License | Type | GPL-Compatible | Patent Clause(s) |
+| :-- | :-- | :-- | :-- |
+[Apache License, Version 2.0](https://opensource.org/license/apache-2-0/) | Permissive | v3, not v2 | Grant, Weak retaliation |
+[Common Development and Distribution License 1.0](https://opensource.org/license/cddl-1-0/) | Permissive | No | Grant, Weak retaliation |
+[Eclipse Public License version 2.0](https://opensource.org/license/epl-2-0/) | Weak Copyleft | Yes | Grant, Weak retaliation |
+[GNU General Public License version 2](https://opensource.org/license/gpl-2-0/) | Copyleft | Yes | Implied grant |
+[GNU General Public License version 3](https://opensource.org/license/gpl-3-0/) | Copyleft | Yes |  Grant, Weak retaliation |
+[GNU Lesser General Public License version 2.1](https://opensource.org/license/lgpl-2-1/) | Weak Copyleft | Yes | Implied grant |
+[GNU Lesser General Public License version 3](https://opensource.org/license/lgpl-3-0/) | Weak Copyleft | Yes | Silent |
+[GNU Library General Public License version 2](https://opensource.org/license/lgpl-2-0/) | Weak Copyleft | Yes | Implied grant |
+[Mozilla Public License 2.0](https://opensource.org/license/mpl-2-0/) | Permissive | Yes | Grant, Weak retaliation |
+[The 2-Clause BSD License](https://opensource.org/license/bsd-2-clause/) | Permissive | Yes | Silent |
+[The 3-Clause BSD License](https://opensource.org/license/bsd-3-clause/) | Permissive | Yes | Silent |
+[The MIT License](https://opensource.org/license/mit/) | Permissive | Yes | Silent |
+
+## ChooseALicense.com
+
+If you want more choices for your open-source license, or are interested in clauses other than those in the table above, check out [ChooseALicense.com](https://choosealicense.com).
+This tool, which was developed by GitHub and is openly curated through a [GitHub repository](https://github.com/github/choosealicense.com) starts with three very simple suggestions:
+
+* Use the license preferred by your community
+* If you want a permissive license, they recommend MIT
+* If you want a copyleft license, they recommend GPLv3
+
+But then their [Licenses](https://choosealicense.com/licenses/) page lists eight licenses that span a broad spectrum and provide analyses of thirteen different characteristics.
+And their [Appendix](https://choosealicense.com/appendix/) has a table of more than forty licenses analyzed in terms of the thirteen different characteristics.
+The characteristics include:
+
+* Commericial use
+* Distribution
+* Modification
+* Patent use
+* Private use
+* Disclose source
+* License and copyright notice
+* License and copyright notice for source
+* Network use is distribution
+* Same license
+* Same license (file)
+* Same license (library)
+* State changes
+* Liability
+* Trademark use
+* Warranty
+
+![A snapshot of https://choosealicense.com/appendix/ taken 2023-06-28]({{ page.root }}/fig/choosealicense-appendix-2023-06-28.png)
+
+> ## Activity: Open-source licenses in your community
+>
+> Try to identify 2-3 open-source software packages within your community that use different licenses.  Which licenses do they use? Or does a single license strongly dominate your community? Are they permissive or copyleft?  In what other ways do they differ? (Hint: the <https://choosealicense.com/appendix/> page might be helpful.)
+{: .challenge}
 
 {% include links.md %}

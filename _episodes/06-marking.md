@@ -10,33 +10,93 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Learning Objectives
-
-* Understand the role of copyright and licenses in guiding how developers approach contributing to the code and users approach using it.Understand why open-source licenses are popular in scientific software.
-* Understand why using existing open-source licenses is preferable to creating new ones.
-* Understand what tools are available to help select open-source licenses.
-* Understand the necessity and value of clearly documenting the choice of license in your code repository and in the code itself.
-
 ## Outline
-
 
 * Once you’ve chosen a license, you should ensure that it is indicated clearly in your software and documentation.
     * A LICENSE file in the repository is a common starting point.  Typically it contains the actual text of the chosen license.
     * Best practice is to also mark individual source code files with copyright notices at the top of each file.  Whether you need to include the entire license is debatable.   You can probably refer to the text of the license elsewhere, along the lines of “License: 3-clause BSD, see file LICENSE”.
 
-## Managing Copyright Notices in Software
+So you've chosen a license for your software.
+Now you need to ensure that people are aware of it!
+This is particularly important for open-source software because you won't have the interaction of someone having to sign and return or otherwise indicate their acceptance of the terms that you would have with a proprietary license.
 
-* All this does no good if you don’t make the license you’ve chosen clear to all
-* Need to  **assert copyright** and make  **license terms**  explicit
-* Do these centrally or in every file?
-  * Single COPYING or LICENSE file per package (or directory)
-  * In comments at the top of the file
-  * Advantages and disadvantages to each
-* ***Best practice: do both***
-  * Intelligently, to make it as easy to maintain as possible – script updates!
-* Authorship (separate, but related)
-  * Version control is best way to maintain accurate records of authorship
-* See [Managing Copyright Information within a Free Software Project](http://softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html) for details
-* Also [Software Package Data Exchange](https://spdx.org/) (SPDX, emerging standard)
+## Two strategies for documenting your license
+
+There are, in essence, two strategies for indicating your choice of license.  
+The first it to put it in a file at the repository level.
+The second is to put it inside the individual files.
+The centralized approach has the advantage of simplicity and maintainability.
+However if an individual file is separated from the distribution or repository, the recipient won't see the copyright and license information if the notice only appears in a central file. 
+
+The [Software Freedom Law Center](https://softwarefreedom.org/)'s (SFLC's) whitepaper on [Managing copyright information within a free software project](https://softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html) suggests that the best practice is to do *both*.
+
+> ## Discussion
+> 
+> Have you ever received a file by itself, outside of the context of a version control repository or complete distribution of the package, for example as a potential solution to a problem or a bug?  Was the origin of the file and its copyright and licensing evident to you?  Or perhaps the person who gave it to you told you about the license and copyright terms?
+>
+> Did that file (or parts of it) end up in another software package that you were working on at the time?
+{: .discussion}
+
+## Centralized license and copyright information
+
+You should place the complete copyright information together with the text of the license you've chosen in a prominent location in the main directory of your repository.
+In the past `COPYING` used to be a popular recommendation for this file, but `LICENSE` seems like a more obvious choice and is probably more commonly used these days.
+
+If your package is more complicated, with multiple licenses, they can often naturally be grouped into subdirectories with consistent licensing and each subdirectory can include an appropriate `LICENSE` file.
+If the licensing structure is sufficiently complex, it may be worth placing a "roadmap" to the various licenses applying to different parts of the code in the top directory.
+
+## Tracking authorship and copyright information
+
+Every person who makes a non-trivial contribution to a software package has a copyright interest in that package.
+(There's no legal definition for what constitutes a non-trivial contribution.  The package maintainers need to determine that on a case by case basis.  Fixing a typo, or even perhaps a simple bug fix may not be considered substantive.  But a complex bug fix or implementing new functionality probably would be.)
+Such a list can obviously get rather long and could change frequently as new contributors join.
+(Though if many of the contributors are performing work for hire and their employers actually own the copyright, the list of rightsholders may not be so long after all.)
+But it is important to maintain this information to the best of your ability to ensure that contributors get the credit they deserve and contributors can be identified if legal issues arise.
+
+If used carefully, version control systems provide a good means to track authorship.
+But you need to use the version control tools in such a way that maintains the file histories as files are moved, renamed, etc.
+In other words, instead of changing the name of a file by `git rm`ing the old name and `git add`ing the new name, use `git mv` so that the history (of commits and the authorship of those commits) follows the file through the name change.
+
+But this authoritative information about authorship is only available in the version control repository, using your version control tool.
+If the package is bundled up and distributed as a tarball, or in some other form outside of the repository, this information may be inaccessible to the recipient.
+The same is true for individual files which might be distributed outside of the package for various reasons.
+
+So the recommendation is to construct a copyright notice for the entire repository (as opposed to for each individual file), and try to do a reasonable job of keeping it up to date.
+The most likely place for the copyright notice to live is in your `LICENSE` file because the license normally includes a copyright notice.
+But another option, if you prefer, could be a separate `COPYRIGHT` or `AUTHORS` file.
+Note, however, that the copyright holders are not necessarily the authors of the code, depending on whether the authors or their employers are the rightsholders.
+
+## File-scope license and copyright information
+
+As a point of reference, the recommendation of the FSF is to include the following in the header (beginning) of *every* file in the package:
+
+1. one sentence naming and briefly describing the program,
+2. the copyright notice of the authors,
+3. the name(s) of the license(s) under which the software is available,
+4. a brief warranty disclaimer, and
+5. a URL pointing to the full copy of the license.
+
+Others recommend including the full text of the license rather than just the name and a URL.
+
+Obviously, this a lot of information to insert into every file, and a lot of information to maintain.
+Note that the contributors to each individual file are likely to be different, so in principle each file could have a *different* copyright notice, each of which would need to be maintained.
+All of which seems a little overboard for most purposes. 
+
+The SFLC's suggestion is to boil the per-file header down to the essentials.
+You want enough information that if the file was distributed separate from the rest of the repository, that the recipient could identify the origins of the file and know where to look for the remaining details.
+Something along the following lines:
+
+```
+Copyright 2012 The Foo Project Developers. See the LICENSE file at the top-level directory of this distribution and at http://www.example.com/foo/LICENSE.
+
+This file is part of Foo Project. It is subject to the license terms in the LICENSE file found in the top-level directory of this distribution and at http://www.example.com/foo/LICENSE. No part of Foo Project, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the LICENSE file.
+```
+
+Consider writing scripts to help you insert and maintain the file-scope copyright and license headers you decide upon.
+
+> ## Discussion
+>
+> Is there any software that you work with directly, or in your community, which you know has a license associated with it but is not marked in at least one of the two ways we've discussed here (centralized and file-scope)?
+{: .discussion}
 
 {% include links.md %}

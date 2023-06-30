@@ -112,13 +112,31 @@ And you can finesse license compatibility issues by letting the end user put eve
 > *Hint: focus on the first two clauses.*
 >
 > > ## Solution
-> > No.  Clauses 1 (especially) and 2 violate the freedom of being able to modify the code and the freedom to distribute copies of your modified version of the code to others.
+> > No.  Clauses 1 (especially) violate the freedom of being able to modify the code and the freedom to distribute copies of your modified version of the code to others.  And clause 2 requires that if you distribute copies of the *unmodified* original, it is under the same license terms.
 > > 
 > > Why might someone have felt clauses like these were necessary to include in their software license?  Perhaps they've had problems in the past with users distributing modified code with errors that they felt reflected poorly on the original code.  Or perhaps they want to impose some measure of quality control over modifications.
 > > 
 > > A possible alternative solution would be to include a requirement that derivatives must be clearly distinguished from the original (e.g., different name).  Some open source licenses include such clauses.
 >{: .solution}
 {: .challenge}
+
+> ## Discussion
+>
+> Now take a close look at clauses 3-5 in the license above.  What do you think the copyright owner intended to achieve with those clauses?  
+>
+> Would you be inclined to comply with these license terms?  Do you think others comply?  
+>
+> Do you think the copyright holder tries to enforce these terms? (If you have to sign the agreement, they know who has the software.)  If you were the copyright holder, do you think it would be worth the effort to try to enforce these terms?  
+>
+> Can you think of better ways to achieve the same things?
+>
+> > ## Comments
+> >
+> > It seems like clauses 3 and 4, charitably interpreted, are intended to give the copyright owner awareness of how people are using the software.  Going back to our speculation about why they might not want anyone to modify the code, perhaps they're implicitly seeking to exert some quality control over work done using the code. If you send them a draft paper, do you think they would let you know if they found a problem with how you had used the code or interpreted the results?
+> >
+> > Clause 5 is a requirement that the code be cited in work where it is used.  This probably seems quite reasonable, on its face -- appropriate citation of software should be encouraged.  There are other ways to make this request, though they lack the legal force of putting it in the license.  The primary alternative is to make the request in a prominent file in the repository.  `CITATION` is the conventional name for this file, though some people put it in the `README` file.  The [Citation File Format](https://citation-file-format.github.io/) (CFF) is a lightly structured YAML schema, designed to be both human- and machine-readable, to indicate your preferred citation for the work.  These files are conventionally named `CITATION.cff` and in addition to be being readily visible in your repository can be interpreted by tools like GitHub, Zenodo, and Zotero to automatially display the preferred citation.
+>{: .solution}
+{: .discussion}
 
 ## Open licensing of non-software artifacts
 
