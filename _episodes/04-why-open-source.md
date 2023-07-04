@@ -15,15 +15,6 @@ keypoints:
 - "Open-source doesn't guarantee that outsiders will engage with your software.  You'll need to work to build a community of contributors and users."
 ---
 
-## Outline
-
-* Open source licensing is widely (though not exclusively) used in the scientific software community.
-    * Visibility into the software producing scientific results is considered by most to be consistent with the scientific method.
-    * Many may see open source licensing as an approach to sustainability of the software – getting others to contribute.  This is magical thinking, and rarely happens in practice. Open source licensing is (probably) necessary, but not sufficient to attract outside contributors.
-    * Permissive licenses allow derivative works to be released under a different license, even a proprietary one (though in practice, this is rare). Copyleft licenses require that derivative works be released under the same license as the original, although they do not require the release of the derivative works. (They can be kept private.)
-    * Because of the “viral” nature of copyleft licenses, many commercial organizations prohibit use or dependence on copyleft-licensed software or libraries. For example, if you want an HPC vendor to be able to take your numerical library and optimize it for their platform and offer it as a “built-in” part of their software stack, you should probably choose a permissive license.
-
-
 ## The philosophical reasons
 
 One of the most common reasons that developers of scientific software choose open-source over proprietary licensing is because they consider it to be consistent with the scientific method.

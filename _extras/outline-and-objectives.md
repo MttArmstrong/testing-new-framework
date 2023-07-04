@@ -1,5 +1,5 @@
 ---
-title: "Outline"
+title: "Outline and Learning Objectives"
 teaching: 0
 exercises: 0
 questions:

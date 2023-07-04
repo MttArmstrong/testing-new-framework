@@ -19,12 +19,6 @@ keypoints:
 - "Creative Commons is a licensing scheme for non-software works that is similar to the open-source spectrum for software."
 ---
 
-## Outline
-
-* The de facto arbiter of whether a license is, in fact, “open source” is the Open Source Initiative (OSI, [https://opensource.org/](https://opensource.org/)).  
-    * The Free Software Foundation (FSF) is also influential in open source licensing discussions ([https://www.fsf.org/licensing/](https://www.fsf.org/licensing/)). 
-
-
 Open source is a popular choice in scientific research, for reasons we'll explore in the next episode.
 But before that, let's take a deeper look at what we mean by "open source" and some nuances in the spectrum of open-source software licenses.
 

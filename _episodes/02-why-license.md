@@ -12,13 +12,6 @@ keypoints:
 - "Specifying a software licenses provides guidance for would-be contributors and users about how they can engage with the software."
 ---
 
-## Outline
-
-* Specifying a license provides clarity as to how others can contribute to or use the software.
-    * Contributors: How can maintainers use the contributions?  What rights do contributors maintain in their contributions?
-    * Users: Interaction with licenses of other software (e.g., an application or tool and its dependencies).  Potential for vendor adoption, commercialization, etc.
-    * The choice of license should be treated as a _tool_ for the greater goals of the project and the software.
-
 ## The spectrum of software licenses
 
 As we've mentioned, licenses provide a means to convey selected rights from the owner of those rights to others.

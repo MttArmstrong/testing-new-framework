@@ -12,12 +12,6 @@ keypoints:
 - "Individual files should include enough information to identify that they are copyrighted and licensed and point the recipient to the details."
 ---
 
-## Outline
-
-* Once you’ve chosen a license, you should ensure that it is indicated clearly in your software and documentation.
-    * A LICENSE file in the repository is a common starting point.  Typically it contains the actual text of the chosen license.
-    * Best practice is to also mark individual source code files with copyright notices at the top of each file.  Whether you need to include the entire license is debatable.   You can probably refer to the text of the license elsewhere, along the lines of “License: 3-clause BSD, see file LICENSE”.
-
 So you've chosen a license for your software.
 Now you need to ensure that people are aware of it!
 This is particularly important for open-source software because you won't have the interaction of someone having to sign and return or otherwise indicate their acceptance of the terms that you would have with a proprietary license.

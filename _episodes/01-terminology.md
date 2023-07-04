@@ -15,13 +15,6 @@ keypoints:
 - "Creative works, including software, are subject to copyright protections from the moment of creation."
 ---
 
-## Outline
-
-* Since 1989 (in the U.S.) creative works, including software, are “born copyrighted”.
-    * The owner of the copyright is either the author or (more commonly, in practice) the author’s employer as “work for hire”.
-    * Most employment contracts include clauses about intellectual property rights (copyright, patents, trademarks)
-    * The default “license” associated with copyright is “all rights reserved” to the holder of the copyright.
-
 ## Terminology: copyright, patents, trademarks, and licenses
 
 Intellectual property (IP) is a general term referring to intangible creations of human intellect.  

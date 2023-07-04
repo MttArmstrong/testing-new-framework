@@ -18,15 +18,6 @@ This lesson intends to get you thinking, not to give you answers.
 > *This is not legal advice.* Consult with true experts before making any consequential decisions!
 {: .caution}
 
-> ## Learning Objectives
-> 
-> * Understand the role of copyright and licenses in guiding how developers approach contributing to the code and users approach using it.
-> * Understand why open source licenses are popular in scientific software.
-> * Understand why using existing open source licenses is preferable to creating new ones.
-> * Understand what tools are available to help select open source licenses.
-> * Understand the necessity and value of clearly documenting the choice of license in your code repository and in the code itself.
-{: .keypoints}
-
 > ## Prerequisites
 >
 > None

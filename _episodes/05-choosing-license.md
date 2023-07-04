@@ -15,14 +15,6 @@ keypoints:
 - "[ChooseALicense.com](https://choosealicense.com) has analyses of more than 40 open-source licenses along 13 different characteristics."
 ---
 
-## Outline
-
-* Choose an existing OSI-approved license rather than creating a new one.  There are ~80 to choose from that cover most situations.
-* OSI has been reluctant to add to the proliferation of open source licenses by approving new ones.
-* Some publication venues (e.g., Journal of Open Source Software), will only accept OSI-approved licenses.
-* There are tools available to walk you through decision trees to select open source licenses, such as [https://choosealicense.com/](https://choosealicense.com/).  They can be very useful.
-* The primary decision point in open source licensing is “permissive” versus “restrictive” (also referred to as “copyleft” or “viral”).  As with all software licensing, there are many considerations that may apply.
-
 ## Don't reinvent the license
 
 If you want to use an open-source license with your software, the first advice is to use an existing license rather than inventing your own.
