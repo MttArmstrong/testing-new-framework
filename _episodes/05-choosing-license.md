@@ -1,13 +1,18 @@
 ---
 title: "Choosing an Open Source License"
 teaching: 0
-exercises: 0
+exercises: 15
 questions:
-- "Key question (FIXME)"
+- "What are some of the reasons for going with an established open-source license instead of creating a new one?"
+- "What are some of the most popular open-source licenses?"
+- "Name a tool that can help with a more detailed understanding of common open-source licenses?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Be able to identify some of the most common open-source licenses."
+- "Know about a tool that can help you select an open-source license that meets your needs."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "There are many OSI-approved licenses already available covering most needs.  Some publication or other venues require OSI-approved licenses."
+- "The variants of the GNU GPL license are among the most popular copyleft licenses, while Apache, BSD, and MIT are among the most popular permissive licenses."
+- "[ChooseALicense.com](https://choosealicense.com) has analyses of more than 40 open-source licenses along 13 different characteristics."
 ---
 
 ## Outline
@@ -20,7 +25,7 @@ keypoints:
 
 ## Don't reinvent the license
 
-If you want to use an open source license with your software, the first advice is to use an existing license rather than inventing your own.
+If you want to use an open-source license with your software, the first advice is to use an existing license rather than inventing your own.
 The OSI has approved more than 80 different licenses as qualifying as open source.
 They cover a wide range of situations, and with that many options, you're pretty unlikely to have a need that's not already covered.
 Moreover, the OSI feels that there are too many open-source licenses already, and has been reluctant to review and approve new licenses to control the proliferation.

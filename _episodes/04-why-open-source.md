@@ -1,13 +1,18 @@
 ---
 title: "Why Choose Open Source Licensing?"
 teaching: 0
-exercises: 0
+exercises: 20
 questions:
-- "Key question (FIXME)"
+- "What are some of the reasons for preferring open-source licensing over proprietary?"
+- "Does open-source licensing prevent you from making money off of your software?"
+- "Does open-source licensing guarantee the sustainability of your software?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand some of the reasons for preferring open-source licensing over proprietary."
+- "Understand that the choice of license is a tool for your software and your project goals."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Philosophical reasons include consistency with the scientific method and openness of publicly funded research results.  Another reason is that it facilitates building a community around your software."
+- "Most software-related business models work as well for open-source software as for proprietary."
+- "Open-source doesn't guarantee that outsiders will engage with your software.  You'll need to work to build a community of contributors and users."
 ---
 
 ## Outline

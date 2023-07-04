@@ -10,6 +10,11 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
+> ## Caution
+> 
+> This material appeared in the Better Scientific Software *An Introduction to Software Licensing* lesson, but has not yet been incorporated into the INTERSECT version.
+{: .caution}
+
 ## License Compatibility
 
 * In practice, most software is a  **combined work** of some kind
@@ -44,42 +49,6 @@ One view of license compatibility between common FOSS software licenses. The arr
 * Consider relicensing your software
   * More on this coming up
 
-
-## A Few More Points About our Real-World Example
-
-In order to acquire access to the code sources, the recipient agrees:
-
-1. **to compile/use the XYZZY source code AS IS without modification;** users however are welcome to request changes, or to contribute modifications subject to approval of the authors;
-
-2. if the copy of the XYZZY downloaded by the authorized user is made available to third parties, to ensure that the user agreement is followed by the third parties;
-
-3. to send a one-time email to xyzzy@example.com describing planned research using that module
-
-4. **prior to publication, to email a draft of the article/letter/note to xyzzy@example.com**
-
-5. **to include in published results or presentations the proper code name(s) and appropriate references.**
-
-## Why are these Clauses Included?
-
-4. **prior to publication, to email a draft of the article/letter/note to xyzzy@example.com**
-
-*An attempt to address prior experience with users misusing the code and producing publications with erroneous results, thus reflecting poorly on the code used to obtain them.*
-
-*Creates a burden on the code owners.*
-
-*Not sure how strongly they attempt to enforce this.*
-
-5. **to include in published results or presentations the proper code name(s) and appropriate references.**
-
-*A natural desire for the software to be credited in papers where it is used.*
-
-*Does not violate free/open source software principles.*
-
-*Some licenses require attribution, but usually only in source code.*
-
-* Creative Commons licenses can include an attribution clause (see later slide)
-
-*Possible alternative: CITATION file?*
 
 ## Some Related Matters
 

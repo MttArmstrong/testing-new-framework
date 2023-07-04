@@ -1,13 +1,22 @@
 ---
 title: "What is Open Source?"
 teaching: 0
-exercises: 0
+exercises: 15
 questions:
-- "Key question (FIXME)"
+- "What organization is considered to be the arbiter of whether or not a license is open source?"
+- "What are the 'four freedoms' by which the Free Software Foundation defines free (aka open-source) software?"
+- "What is the difference between a permissive and a copyleft license?"
+- "Is there a licensing scheme comparable to open-source for non-software works?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Know where to check whether a license is open-source."
+- "Understand how open-source software is defined."
+- "Understand the difference between copyleft and permissive open-source licenses."
+- "Be aware of the Creative Commons licenses for non-software artifacts."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "The Open Source Initiative (OSI) is considered the arbiter of open-source licenses."
+- "The four freedoms include: running the software for any purpose, studying and changing the source code, and distributing copies of the original or modified source."
+- "A permissive license allows derivative works to be licensed differently than the original; a copyleft license requires that the derivative use the same license as the original."
+- "Creative Commons is a licensing scheme for non-software works that is similar to the open-source spectrum for software."
 ---
 
 ## Outline
@@ -23,7 +32,8 @@ But before that, let's take a deeper look at what we mean by "open source" and s
 
 When it comes to defining open-source or free software, there are two major organizations to be aware of.
 The [Free Software Foundation](https://fsf.org) (FSF) was founded in 1985 by Richard Stallman.
-In addition to advocacy for free software [licensing](http://fsf.org/licensing), the FSF also maintains a sizable number of software products, including GNU Emacs and many of the packages at the core of the GNU/Linux operating system.  
+In addition to advocacy for free software [licensing](http://fsf.org/licensing), the FSF also maintains a sizable number of software products, including GNU Emacs and many of the packages at the core of the GNU/Linux operating system. 
+
 The [Open Source Initiative](http://opensource.org/) (OSI) was founded in 1998 by Eric Raymond and Bruce Perens.
 The primary mission of the OSI is to assess licenses and maintain a list of those which they judge to qualify as "open source."
 They also engage in advocacy related to open source software.
@@ -59,7 +69,7 @@ These terms have to do with how the license treats derivative works (which we'll
 
 A permissive license allows the licensee to distribute derivative works as they see fit.
 This includes the possibility of relicensing the derivative work under another license, possibly even a proprietary license.
-Examples of permissive licenses include the [Apache License](https://opensource.org/license/apache-2-0/), the [BSD License](https://opensource.org/license/bsd-3-clause/), and the [MIT License(https://opensource.org/license/mit/).
+Examples of permissive licenses include the [Apache License](https://opensource.org/license/apache-2-0/), the [BSD License](https://opensource.org/license/bsd-3-clause/), and the [MIT License](https://opensource.org/license/mit/).
 
 Copyleft licenses, on the other hand, require that the licensee distribute derivative works under the same license as the original work.
 The FSF is one of the main proponents of copyleft licenses, and they created two of the most widely used examples: the [GNU General Public License](https://opensource.org/license/gpl-3-0/) (GPL) and the [GNU Lesser General Public License](https://opensource.org/license/lgpl-3-0/) (LGPL).

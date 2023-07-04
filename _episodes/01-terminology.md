@@ -1,14 +1,18 @@
 ---
 title: "Terminology and Background on Intellectual Property"
 teaching: 0
-exercises: 0
+exercises: 5
 questions:
-- "Key question (FIXME)"
+- "What is the primary form of intellectual property typically associated with software?"
+- "What is the purpose of a license for software?"
+- "At what point can you assert copyright over your software?"
 objectives:
 - "Be able to differentiate the terms copyright, patent, trademark, and license."
 - "Understand that your creative works (including software) are copyright at creation."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Copyright is the primary form of intellectual property associated with software.  Patents and trademarks may also be relevant."
+- "A license is a legal tool to transfer selected intellectual property rights from one party to another."
+- "Creative works, including software, are subject to copyright protections from the moment of creation."
 ---
 
 ## Outline

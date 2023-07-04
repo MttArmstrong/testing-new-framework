@@ -1,13 +1,15 @@
 ---
 title: "Documenting Your Choice of License"
 teaching: 0
-exercises: 0
+exercises: 10
 questions:
-- "Key question (FIXME)"
+- "What are the two basic strategies for documenting your choice of license?"
+- "What information should you include in each file in your software?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand the importance of marking your software with your chosen license and copyright information."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "License and copyright information can be documented in a centralized manner (at the repository level) and within individual files."
+- "Individual files should include enough information to identify that they are copyrighted and licensed and point the recipient to the details."
 ---
 
 ## Outline

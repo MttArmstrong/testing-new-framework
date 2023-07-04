@@ -1,13 +1,15 @@
 ---
 title: "Why You Should Choose a License"
 teaching: 0
-exercises: 0
+exercises: 20
 questions:
-- "Key question (FIXME)"
+- "What are the two basic categories of software licenses?"
+- "What are the benefits of specifying a license for your software?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand the reasons to specify a license for your software."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "The two basic categories of software licenses are *proprietary* and *open-source*."
+- "Specifying a software licenses provides guidance for would-be contributors and users about how they can engage with the software."
 ---
 
 ## Outline
@@ -64,14 +66,14 @@ Open-source licenses, on the other hand, ensure the availability of the source c
 The user can review the code to see what it is doing when it is run.
 While there may well be helpful user communities in either case, the fact that everyone in the community has access to the source code of an open-source package may make it more likely that the user can obtain assistance from people besides the copyright holder.
 
-> ## Activity
+> ## Discussion
 > 
 > Suppose you hear someone at a conference talk about a software package that might be very useful in your work with a few modifications. You chat with them about the possibility of collaborating around their software.
 >
 > If they mention that the software is proprietary, would that influence your decision about pursuing a collaboration?
 > 
 > If they mention that the software is open source, would that influence your decision about pursuing a collaboration?
-{: .challenge}
+{: .discussion}
 
 Ultimately, the choice of how to license your software should be thought of as a *tool* in pursuing the greater goals of your software and your project.
 
