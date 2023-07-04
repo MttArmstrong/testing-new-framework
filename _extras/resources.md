@@ -41,7 +41,7 @@ title: Additional Resources
     * [Why so little love for the patent grant in the MIT License?](https://opensource.com/article/18/3/patent-grant-mit-license)
     * [React’s New MIT License: The Circus Enters Its Third Ring](https://medium.com/@dwalsh.sdlr/reacts-new-mit-license-the-circus-enters-it-s-third-ring-2f1bf989a67f)
     * [GitLab freezes GraphQL project amid looming Facebook patent fears](https://www.theregister.co.uk/2017/09/20/gitlab_suspends_graphql_project_over_facebook_license_terms/)
-    * Rust: [Rust license changing (very slightly)](https://mail.mozilla.org/pipermail/rust-dev/2012-November/002664.html), [Why dual MIT/ASL2 license?](https://doc.rust-lang.org/1.4.0/complement-project-faq.html#why-dual-mit/asl2-license?)
+    * Rust: [Rust license changing (very slightly)](https://www.mail-archive.com/rust-dev@mozilla.org/msg02652.html), [Why dual MIT/ASL2 license?](https://doc.rust-lang.org/1.4.0/complement-project-faq.html#why-dual-mit/asl2-license?)
 
 ## Related tutorial materials
 
