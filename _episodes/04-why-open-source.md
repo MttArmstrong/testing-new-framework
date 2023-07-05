@@ -18,7 +18,7 @@ keypoints:
 ## The philosophical reasons
 
 One of the most common reasons that developers of scientific software choose open-source over proprietary licensing is because they consider it to be consistent with the scientific method.
-The scientific method requires transparency and reproducibility, and in computationally-based science, this implies that the "apparatus" (i.e., the software) be available for others to inspect and understand, and that others should be able to use it to reproduce the relevant (computational) experiments.
+The scientific method requires transparency and reproducibility, and in computationally-based science, this implies that the "apparatus" (i.e., the software) be available for others to inspect and understand and that others should be able to use it to reproduce the relevant (computational) experiments.
 
 Another philosophical reason that many cite is that the results of publicly-funded research (e.g., software produced with research funding) should be publicly available.
 
@@ -35,8 +35,9 @@ Within the U.S. Department of Energy, several programs have adopted a [policy](h
 Another common reason to favor open-source licensing is to facilitate building a community around your software.
 Understandably, an open and accessible code base is likely to be more attractive and have a lower barrier to entry for potential contributors than closed source.
 On the other hand, having to complete an explicit license agreement is a barrier to use (or contribution) of closed-source software.
-At most institutions, only a few people are authorized to sign legal agreements on behalf of the organization.Usually, a license agreement would have to be reviewed and executed by an IP lawyer, which can cause delays.
-In some cases, the institution and the licensor may be unable to come to agreement and it may be impossible to obtain the license.
+At most institutions, only a few people are authorized to sign legal agreements on behalf of the organization.
+Usually, a license agreement would have to be reviewed and executed by an IP lawyer, which can cause delays.
+In some cases, the institution and the licensor may be unable to come to an agreement on the terms and it may be impossible to obtain the license.
 
 And, on a related note, if you're using a proprietary license, you have to manage and archive all of the paperwork associated with those licenses so that you know who your licenses are.
 Some find that this is more trouble than it's worth.
@@ -113,18 +114,23 @@ This is similar to a compromise that's often used in academic publishing, where 
 
 As we've suggested, the licensing of your software should be viewed as a tool to help you pursue your goals for the software and the associated project.
 
-Basically, you want to ask yourself (and your collaborators) what rights you want to grant to others or retain for yourselves"
+Basically, you want to ask yourself (and your collaborators) what rights you want to grant to others or retain for yourselves:
 
-  * Who can use the program?
-  * Can users see the source code?
-  * Can users modify the source code?
-  * Can the users redistribute original or modified code?
+* Who can use the program?
+* Can users see the source code?
+* Can users modify the source code?
+* Can the users redistribute the original or modified code?
 
 And think about how these choices will affect your project, would-be contributors to the software, and would-be users of the software.
 
 > ## Discussion
 >
-> Have you ever been involved in a discussion of proprietary versus open source licensing for a software package?  What arguments were made in favor of proprietary licensing?  What arguments were made in favor of open-source?  Was there a particular argument that carried the day, in either direction?
+> Have you ever been involved in a discussion of proprietary versus open source licensing for a software package?
+>
+> What arguments were made in favor of proprietary licensing?
+> What arguments were made in favor of open-source?
+>
+> Was there a particular argument that carried the day, in either direction?
 {: .discussion}
 
 ## Avoid magical thinking: Open-source is no guarantee of sustainability or community
@@ -136,11 +142,15 @@ Many open source software projects never receive any outside contributions.
 In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it too to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
 
 > ## Discussion
-> 
-> Does your research community include any truly community-based software packages?  Packages which are both widely used, *and* widely contributed to?
 >
-> If you happen to involved in such a project, what is your role?  User? Contributor?  Maintainer?  What is your experience with the community?
+> Does your research community include any truly community-based software packages?
+> Packages which are both widely used, *and* widely contributed to?
+>
+> If you happen to involved in such a project, what is your role?
+> User?
+> Contributor?
+> Maintainer?
+> What is your experience with the community?
 {: .discussion}
 
-    
 {% include links.md %}

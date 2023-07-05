@@ -26,16 +26,18 @@ But before that, let's take a deeper look at what we mean by "open source" and s
 
 When it comes to defining open-source or free software, there are two major organizations to be aware of.
 The [Free Software Foundation](https://fsf.org) (FSF) was founded in 1985 by Richard Stallman.
-In addition to advocacy for free software [licensing](http://fsf.org/licensing), the FSF also maintains a sizable number of software products, including GNU Emacs and many of the packages at the core of the GNU/Linux operating system. 
+In addition to advocacy for free software [licensing](http://fsf.org/licensing), the FSF also maintains a sizable number of software products, including GNU Emacs and many of the packages at the core of the GNU/Linux operating system.
 
 The [Open Source Initiative](http://opensource.org/) (OSI) was founded in 1998 by Eric Raymond and Bruce Perens.
 The primary mission of the OSI is to assess licenses and maintain a list of those which they judge to qualify as "open source."
-They also engage in advocacy related to open source software.
+They also engage in advocacy related to open-source software.
 
 ## "Free" vs "open source"
 
 It may not be surprising, given their names, that the Free Software Foundation tends to use the term "free software", whereas the Open Source Initiative prefers "open source."
-Although the FSF uses the term "free" in licensing discussions to refer to the freedom to do certain things with the software, the term often gets conflated with "free" as in no cost, which quickly muddles the discussion.  Hence, some prefer to use the term "open source" for clarity.  You may also see the term "libre" (Spanish for "free") used in place of or together with "free" (i.e., "free/libre") in the context of software.
+Although the FSF uses the term "free" in licensing discussions to refer to the freedom to do certain things with the software, the term often gets conflated with "free" as in no cost, which quickly muddles the discussion.
+Hence, some prefer to use the term "open source" for clarity.
+You may also see the term "libre" (Spanish for "free") used in place of or together with "free" (i.e., "free/libre") in the context of software.
 
 This lesson generally uses the term "open source."
 
@@ -43,14 +45,16 @@ This lesson generally uses the term "open source."
 
 The FSF has a concise [definition of free software](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms) that revolves around the freedom to do certain things with the software:
 
+{:start="0"}
 0. The freedom to **run the program** for any purpose.
 1. The freedom to **study how the program works**, and **change it** so it does your computing as you wish.
 2. The freedom to **redistribute copies** so you can help your neighbor.
-3. The freedom to **distribute copies of your modified versions** to others.  By doing this you can give the whole community a chance to benefit from your changes.
+3. The freedom to **distribute copies of your modified versions** to others.
+By doing this you can give the whole community a chance to benefit from your changes.
 
-Note that **access to the source code** is a precondition for freedoms 1 and 3.
+Note that **access to the source code** is a precondition for freedoms 1-3.
 
-The OSI has a [definition of open source](https://opensource.org/osd/) software which is longer, but amounts to the same thing for most purposes.
+The OSI has a [definition of open source](https://opensource.org/osd/) software which is longer but amounts to the same thing for most purposes.
 The OSI definition includes two requirements that are implicit in the FSF freedom 0, but which are worth noting:
 
 * No discrimination against persons or groups, and
@@ -75,8 +79,8 @@ For software, this amounts to modifications to someone else's software.
 So derivative works are extremely common, especially in collaborative software development.
 
 But what about linking to a library?
-(And does it matter whether the linkage is static or dynamic?) 
-Or software that interacts via pipes?  
+(And does it matter whether the linkage is static or dynamic?)
+Or software that interacts via pipes?
 Or software that is used as a component in a coupled multiphyscs application?
 Are these also modifications to someone else's software?
 Opinions differ on such questions.
@@ -99,46 +103,62 @@ And you can finesse license compatibility issues by letting the end user put eve
 
 > ## Activity: Is this an open source license?
 >
-> The following is a real-world example of a software license (lightly obfuscated to protect the identity of the software).  Read it and decide whether it qualifies as "open source."
-> 
+> The following is a real-world example of a software license (lightly obfuscated to protect the identity of the software).
+> Read it and decide whether it qualifies as "open source."
+>
 > In order to acquire access to the code sources, the recipient agrees:
-> 
+>
 > 1. to compile/use the XYZZY source code AS IS without modification; users however are welcome to request changes, or to contribute modifications subject to approval of the authors;
 >
-> 2. if the copy of the XYZZY downloaded by the authorized user is made available to third parties, to ensure that the user agreement is followed by the third parties;**
+> 2. if the copy of the XYZZY downloaded by the authorized user is made available to third parties, to ensure that the user agreement is followed by the third parties;
 >
-> 3. to send a one-time email to xyzzy@example.com describing planned research using that module
+> 3. to send a one-time email to xyzzy@example.com describing planned research using that module;
 >
-> 4. prior to publication, to email a draft of the article/letter/note to xyzzy@example.com
+> 4. prior to publication, to email a draft of the article/letter/note to xyzzy@example.com; and
 >
 > 5. to include in published results or presentations the proper code name(s) and appropriate references.
-> 
+>
 > *Hint: focus on the first two clauses.*
 >
 > > ## Solution
-> > No.  Clauses 1 (especially) violate the freedom of being able to modify the code and the freedom to distribute copies of your modified version of the code to others.  And clause 2 requires that if you distribute copies of the *unmodified* original, it is under the same license terms.
-> > 
-> > Why might someone have felt clauses like these were necessary to include in their software license?  Perhaps they've had problems in the past with users distributing modified code with errors that they felt reflected poorly on the original code.  Or perhaps they want to impose some measure of quality control over modifications.
-> > 
-> > A possible alternative solution would be to include a requirement that derivatives must be clearly distinguished from the original (e.g., different name).  Some open source licenses include such clauses.
+> > No.
+> > Clauses 1 (especially) violate the freedom of being able to modify the code and the freedom to distribute copies of your modified version of the code to others.
+> > And clause 2 requires that if you distribute copies of the *unmodified* original, it is under the same license terms.
+> >
+> > Why might someone have felt clauses like these were necessary to include in their software license?
+> > Perhaps they've had problems in the past with users distributing modified code with errors that they felt reflected poorly on the original code.
+> > Or perhaps they want to impose some measure of quality control over modifications.
+> >
+> > A possible alternative solution would be to include a requirement that derivatives must be clearly distinguished from the original (e.g., different name).
+> > Some open source licenses include such clauses.
 >{: .solution}
 {: .challenge}
 
 > ## Discussion
 >
-> Now take a close look at clauses 3-5 in the license above.  What do you think the copyright owner intended to achieve with those clauses?  
+> Now take a close look at clauses 3-5 in the license above.  What do you think the copyright owner intended to achieve with those clauses?
 >
-> Would you be inclined to comply with these license terms?  Do you think others comply?  
+> Would you be inclined to comply with these license terms?  Do you think others comply?
 >
-> Do you think the copyright holder tries to enforce these terms? (If you have to sign the agreement, they know who has the software.)  If you were the copyright holder, do you think it would be worth the effort to try to enforce these terms?  
+> Do you think the copyright holder tries to enforce these terms?
+> (If you have to sign the agreement, they know who has the software.)
+> If you were the copyright holder, do you think it would be worth the effort to try to enforce these terms?
 >
 > Can you think of better ways to achieve the same things?
 >
 > > ## Comments
 > >
-> > It seems like clauses 3 and 4, charitably interpreted, are intended to give the copyright owner awareness of how people are using the software.  Going back to our speculation about why they might not want anyone to modify the code, perhaps they're implicitly seeking to exert some quality control over work done using the code. If you send them a draft paper, do you think they would let you know if they found a problem with how you had used the code or interpreted the results?
+> > It seems like clauses 3 and 4, charitably interpreted, are intended to give the copyright owner awareness of how people are using the software.
+> > Going back to our speculation about why they might not want anyone to modify the code, perhaps they're implicitly seeking to exert some quality control over work done using the code.
+> > If you send them a draft paper, do you think they would let you know if they found a problem with how you had used the code or interpreted the results?
 > >
-> > Clause 5 is a requirement that the code be cited in work where it is used.  This probably seems quite reasonable, on its face -- appropriate citation of software should be encouraged.  There are other ways to make this request, though they lack the legal force of putting it in the license.  The primary alternative is to make the request in a prominent file in the repository.  `CITATION` is the conventional name for this file, though some people put it in the `README` file.  The [Citation File Format](https://citation-file-format.github.io/) (CFF) is a lightly structured YAML schema, designed to be both human- and machine-readable, to indicate your preferred citation for the work.  These files are conventionally named `CITATION.cff` and in addition to be being readily visible in your repository can be interpreted by tools like GitHub, Zenodo, and Zotero to automatially display the preferred citation.
+> > Clause 5 is a requirement that the code be cited in work where it is used.
+> > This probably seems quite reasonable, on its face -- appropriate citation of software should be encouraged.
+> > There are other ways to make this request, though they lack the legal force of putting it in the license.
+> > The primary alternative is to make the request in a prominent file in the repository.
+> > `CITATION` is the conventional name for this file, though some people put it in the `README` file.
+> > The [Citation File Format](https://citation-file-format.github.io/) (CFF) is a lightly structured YAML schema, designed to be both human- and machine-readable, to indicate your preferred citation for the work.
+> > These files are conventionally named `CITATION.cff` and in addition to be being readily visible in your repository can be interpreted by tools like GitHub, Zenodo, and Zotero to automatically display the preferred citation.
 >{: .solution}
 {: .discussion}
 

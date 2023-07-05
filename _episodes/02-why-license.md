@@ -35,11 +35,11 @@ Works in the public domain do not have a copyright or a copyright holder.
 Anyone can do whatever they want with such works.
 
 > ## Activity
-> 
+>
 > Identify one software package that's important to your work that has a proprietary license.
-> 
+>
 > Identify one software package that's important to your work that has an open-source license.
-> 
+>
 > Is there a software package that's important to your work that doesn't specify a license?
 {: .challenge}
 
@@ -60,11 +60,12 @@ The user can review the code to see what it is doing when it is run.
 While there may well be helpful user communities in either case, the fact that everyone in the community has access to the source code of an open-source package may make it more likely that the user can obtain assistance from people besides the copyright holder.
 
 > ## Discussion
-> 
-> Suppose you hear someone at a conference talk about a software package that might be very useful in your work with a few modifications. You chat with them about the possibility of collaborating around their software.
+>
+> Suppose you hear someone at a conference talk about a software package that might be very useful in your work with a few modifications.
+> You chat with them about the possibility of collaborating around their software.
 >
 > If they mention that the software is proprietary, would that influence your decision about pursuing a collaboration?
-> 
+>
 > If they mention that the software is open source, would that influence your decision about pursuing a collaboration?
 {: .discussion}
 

@@ -18,17 +18,19 @@ This is particularly important for open-source software because you won't have t
 
 ## Two strategies for documenting your license
 
-There are, in essence, two strategies for indicating your choice of license.  
-The first it to put it in a file at the repository level.
+There are, in essence, two strategies for indicating your choice of license.
+The first is to put it in a file at the repository level.
 The second is to put it inside the individual files.
 The centralized approach has the advantage of simplicity and maintainability.
-However if an individual file is separated from the distribution or repository, the recipient won't see the copyright and license information if the notice only appears in a central file. 
+However, if an individual file is separated from the distribution or repository, the recipient won't see the copyright and license information if the notice only appears in a central file.
 
 The [Software Freedom Law Center](https://softwarefreedom.org/)'s (SFLC's) whitepaper on [Managing copyright information within a free software project](https://softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html) suggests that the best practice is to do *both*.
 
 > ## Discussion
-> 
-> Have you ever received a file by itself, outside of the context of a version control repository or complete distribution of the package, for example as a potential solution to a problem or a bug?  Was the origin of the file and its copyright and licensing evident to you?  Or perhaps the person who gave it to you told you about the license and copyright terms?
+>
+> Have you ever received a file by itself, outside of the context of a version control repository or complete distribution of the package, for example as a potential solution to a problem or a bug?
+> Was the origin of the file and its copyright and licensing evident to you?
+> Or perhaps the person who gave it to you told you about the license and copyright terms?
 >
 > Did that file (or parts of it) end up in another software package that you were working on at the time?
 {: .discussion}
@@ -44,8 +46,10 @@ If the licensing structure is sufficiently complex, it may be worth placing a "r
 ## Tracking authorship and copyright information
 
 Every person who makes a non-trivial contribution to a software package has a copyright interest in that package.
-(There's no legal definition for what constitutes a non-trivial contribution.  The package maintainers need to determine that on a case by case basis.  Fixing a typo, or even perhaps a simple bug fix may not be considered substantive.  But a complex bug fix or implementing new functionality probably would be.)
-Such a list can obviously get rather long and could change frequently as new contributors join.
+(There's no legal definition for what constitutes a non-trivial contribution.
+The package maintainers need to determine that on a case by case basis.
+Fixing a typo, or even perhaps a simple bug fix may not be considered substantive.  But a complex bug fix or implementing new functionality probably would be.)
+Such a list can get rather long and could change frequently as new contributors join.
 (Though if many of the contributors are performing work for hire and their employers actually own the copyright, the list of rightsholders may not be so long after all.)
 But it is important to maintain this information to the best of your ability to ensure that contributors get the credit they deserve and contributors can be identified if legal issues arise.
 
@@ -73,13 +77,12 @@ As a point of reference, the recommendation of the FSF is to include the followi
 5. a URL pointing to the full copy of the license.
 
 Others recommend including the full text of the license rather than just the name and a URL.
-
-Obviously, this a lot of information to insert into every file, and a lot of information to maintain.
-Note that the contributors to each individual file are likely to be different, so in principle each file could have a *different* copyright notice, each of which would need to be maintained.
-All of which seems a little overboard for most purposes. 
+This is a lot of information to insert into every file and a lot of information to maintain.
+Note that the contributors to each individual file are likely to be different, so in principle, each file could have a *different* copyright notice, each of which would need to be maintained.
+All of which seems a little overboard for most purposes.
 
 The SFLC's suggestion is to boil the per-file header down to the essentials.
-You want enough information that if the file was distributed separate from the rest of the repository, that the recipient could identify the origins of the file and know where to look for the remaining details.
+You want enough information that if the file was distributed separately from the rest of the repository, the recipient could identify the origins of the file and know where to look for the remaining details.
 Something along the following lines:
 
 ```

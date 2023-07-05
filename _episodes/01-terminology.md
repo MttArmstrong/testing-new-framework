@@ -17,7 +17,7 @@ keypoints:
 
 ## Terminology: copyright, patents, trademarks, and licenses
 
-Intellectual property (IP) is a general term referring to intangible creations of human intellect.  
+Intellectual property (IP) is a general term referring to intangible creations of human intellect.
 There are multiple types of IP recognized in law in most jurisdictions.
 The types that are most often associated with software include:
 
@@ -27,8 +27,8 @@ The types that are most often associated with software include:
 
 * A  **trademark** is a sign, design, or expression which identifies products or services from a particular source (e.g., your software), as distinguished from other sources.
 
-**Licenses** are a legal tool to transfer (selected) rights in a work, invention, or mark (forms of intellectual property) from one party to another.  
-When we talk about licenses for software, we're primarily focused on copyright. 
+**Licenses** are a legal tool to transfer (selected) rights in a work, invention, or mark (forms of intellectual property) from one party to another.
+When we talk about licenses for software, we're primarily focused on copyright.
 But some software licenses include clauses pertaining to patents and trademarks related to that software.
 
 ## Your software starts out copyrighted
@@ -36,7 +36,7 @@ But some software licenses include clauses pertaining to patents and trademarks 
 Under the law, the software you write is subject to **copyright on creation**.
 You don’t have to do anything special to claim copyright.
 
-Normally, the creator of the work owns the copyright in the work.  
+Normally, the creator of the work owns the copyright in the work.
 But it is "work for hire" (i.e., as part of your job), often the employer will own the copyright.
 Employment contracts often make IP rights explicit.
 If your employer owns the copyright, you probably have to get formal permission to license and distribute your software.
@@ -53,8 +53,10 @@ Unless you specify some license for your software, all rights in the software ar
 > ## Activity
 >
 > Who owns the copyright in the software you create?  You or your employer?
-> 
-> If you don't know the answer, it might be useful to find out. If you don't have a copy of your employment contract, consider asking your Human Resources department for a copy. Your supervisor or your institutional Technology Transfer office may also be able to help you answer this question.
+>
+> If you don't know the answer, it might be useful to find out.
+> If you don't have a copy of your employment contract, consider asking your Human Resources department for a copy.
+> Your supervisor or your institutional Technology Transfer office may also be able to help you answer this question.
 {: .challenge}
 
 
