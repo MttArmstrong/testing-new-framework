@@ -86,7 +86,9 @@ Any license on this list is a good choice because they are among the most popula
 [Mozilla Public License 2.0](https://opensource.org/license/mpl-2-0/) | Permissive | Yes | Grant, Weak retaliation |
 [The 2-Clause BSD License](https://opensource.org/license/bsd-2-clause/) | Permissive | Yes | Silent |
 [The 3-Clause BSD License](https://opensource.org/license/bsd-3-clause/) | Permissive | Yes | Silent |
-[The MIT License](https://opensource.org/license/mit/) | Permissive | Yes | Silent |
+[The MIT License](https://opensource.org/license/mit/) | Permissive | Yes | Silent* |
+
+\* In [Why so little love for the patent grant in the MIT License?](https://opensource.com/article/18/3/patent-grant-mit-license), Scott Peterson argues that the MIT license, which  provides the right to "deal with the Software without restriction," includes the right to use associated patents based on the language used.
 
 ## ChooseALicense.com
 
