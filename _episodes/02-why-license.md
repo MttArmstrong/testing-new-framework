@@ -1,6 +1,6 @@
 ---
 title: "Why You Should Choose a License"
-teaching: 0
+teaching: 6
 exercises: 20
 questions:
 - "What are the two basic categories of software licenses?"

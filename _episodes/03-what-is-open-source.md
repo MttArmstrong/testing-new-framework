@@ -1,6 +1,6 @@
 ---
 title: "What is Open Source?"
-teaching: 0
+teaching: 17
 exercises: 15
 questions:
 - "What organization is considered to be the arbiter of whether or not a license is open source?"
@@ -165,8 +165,8 @@ And you can finesse license compatibility issues by letting the end user put eve
 ## Open licensing of non-software artifacts
 
 OSI approves open-source licenses for *software.*
-But there are many other creative works related to software (or not) that we might want to treat in a similar manner (like documentation for your software, or this lesson).
-The [Creative Commons](https://creativecommons.org/) (CC) is a family of licenses analogous to open-source, but for things other than software.
+But there are many other creative works related to software (or not) that we might want to treat similarly (like documentation for your software, or this lesson).
+The [Creative Commons](https://creativecommons.org/) (CC) is a family of licenses analogous to open-source but for things other than software.
 Variants of the Creative Commons license allow you to impose various restrictions, similar to choosing different licenses for software:
 
   * CC BY (Attribution)
@@ -178,7 +178,7 @@ Variants of the Creative Commons license allow you to impose various restriction
 
 The Attribution clause, which is part of all CC licenses, requires that the user include the appropriate attribution (title, author, source, license) when the work is used.
 The ShareAlike clause requires that adaptations (derivatives) be shared under the same terms as the original (analogous to copyleft).
-The NoDerives clause says that no derivatives of the work are permitted.
+The NoDerivs clause says that no derivatives of the work are permitted.
 The NonCommercial clause says that only non-commercial uses of the work are permitted.
 Without this clause, commercial uses are allowed.
 

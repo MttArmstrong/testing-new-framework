@@ -1,6 +1,6 @@
 ---
 title: "Terminology and Background on Intellectual Property"
-teaching: 0
+teaching: 5
 exercises: 5
 questions:
 - "What is the primary form of intellectual property typically associated with software?"

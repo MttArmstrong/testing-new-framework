@@ -1,6 +1,6 @@
 ---
 title: "Documenting Your Choice of License"
-teaching: 0
+teaching: 10
 exercises: 10
 questions:
 - "What are the two basic strategies for documenting your choice of license?"

@@ -1,6 +1,6 @@
 ---
 title: "Choosing an Open Source License"
-teaching: 0
+teaching: 13
 exercises: 15
 questions:
 - "What are some of the reasons for going with an established open-source license instead of creating a new one?"

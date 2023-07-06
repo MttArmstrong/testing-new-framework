@@ -1,6 +1,6 @@
 ---
 title: "Why Choose Open Source Licensing?"
-teaching: 0
+teaching: 18
 exercises: 20
 questions:
 - "What are some of the reasons for preferring open-source licensing over proprietary?"
