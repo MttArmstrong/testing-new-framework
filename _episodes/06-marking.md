@@ -98,4 +98,22 @@ Consider writing scripts to help you insert and maintain the file-scope copyrigh
 > Is there any software that you work with directly, or in your community, which you know has a license associated with it but is not marked in at least one of the two ways we've discussed here (centralized and file-scope)?
 {: .discussion}
 
+## Badges
+
+Badges at the top of `README.md` files are a popular way to summarize a variety of information about the software package.
+Such badges often include testing status and other dynamic information.
+Licenses are pretty static, so it may be more and so more fun than functional, but badges are available to reflect many popular licenses.
+
+The badge generation site <https://shields.io> can automatically render a badge for any license that GitHub recognizes by simply referencing the repository as follows:
+
+```
+![GitHub](https://img.shields.io/github/license/:user/:repo)
+```
+
+for example, `![GitHub](https://img.shields.io/github/license/hpc-simtools/ips-framework)` which renders as ![GitHub](https://img.shields.io/github/license/hpc-simtools/ips-framework)
+
+The site also provides many license badges which can be selected explicitly, such as the badge for this lesson: `[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)` which renders as [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+While the [shields.io](https://shields.io) site lists many licenses directly, a developer named [Lukas Himsel](https://gist.github.com/lukas-h) has posted a [Gist](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) which provides badges for even more licenses.
+
 {% include links.md %}
