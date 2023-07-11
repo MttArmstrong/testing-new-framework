@@ -1,3 +1,5 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # Software Licensing
 
 This repository generates the corresponding lesson website [Software Licensing](https://intersect-training.org/software-licensing/), which is part of the [INTERESECT](https://intersect-training.org/) training collection.
