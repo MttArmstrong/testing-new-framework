@@ -28,7 +28,6 @@ The contributing author(s) to this lesson are:
 * Michael A. Heroux, Sandia National Laboratories, maherou@sandia.gov
 * James Willenbring, Sandia National Laboratories, jmwille@sandia.gov
 
-
 ## Maintainer(s)
 
 The current maintainer of this lesson is:
