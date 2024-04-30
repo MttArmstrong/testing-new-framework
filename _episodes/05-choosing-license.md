@@ -10,7 +10,7 @@ objectives:
 - "Be able to identify some of the most common open-source licenses."
 - "Know about a tool that can help you select an open-source license that meets your needs."
 keypoints:
-- "There are many OSI-approved licenses already available covering most needs.  Some publication or other venues require OSI-approved licenses."
+- "There are many OSI-approved licenses already available covering most needs.  Some publications or other venues require OSI-approved licenses."
 - "The variants of the GNU GPL license are among the most popular copyleft licenses, while Apache, BSD, and MIT are among the most popular permissive licenses."
 - "[ChooseALicense.com](https://choosealicense.com) has analyses of more than 40 open-source licenses along 13 different characteristics."
 ---
@@ -28,7 +28,7 @@ While there are other options besides JOSS for publishing your software, it is i
 
 ## Considerations in selecting an open-source license
 
-This most significant decision in open-source is between permissive or copyleft licenses.
+The most significant decision in open-source is between permissive or copyleft licenses.
 Technically, this is a decision as to whether derivative works can be changed to a new license or not.
 But it can have knock-on effects, particularly in the area of license compatibility.
 

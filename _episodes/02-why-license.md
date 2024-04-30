@@ -21,7 +21,7 @@ You can think of software licenses as spanning a spectrum.
 ![Software licenses span a spectrum of possibilities depending on what rights they convey to the licensee.]({{ page.root }}/fig/license-spectrum2.png)
 
 At one extreme, all rights are reserved to the owner of the copyright.
-This is the situation that obtains when you do not specify a license, but it is also common to see "All rights reserved" stated explicitly as a form of license.
+This is the situation that applies when you do not specify a license, but it is also common to see "All rights reserved" stated explicitly as a form of license.
 
 Proprietary licenses, also referred to as closed-source licenses, typically convey rights to use the software but reserve rights to access or distribute the source code.
 Software that is distributed under a proprietary license is most often provided in the form of an executable, though in some cases, licensees may receive the source code (e.g., so that they can build it on platforms that the copyright owner may not have access to), but be restricted from redistributing it.

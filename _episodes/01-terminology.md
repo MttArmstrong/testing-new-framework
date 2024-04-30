@@ -48,6 +48,7 @@ Unless you specify some license for your software, all rights in the software ar
 > Works created by the US government (and its employees) cannot be copyrighted.
 > They are considered to be in the **public domain**.
 > The motivation for this was to ensure public access to the U.S. legal code.
+> This does not apply to works created by contractors for the U.S. government (e.g., federally funded research).
 {: .callout}
 
 > ## Activity
