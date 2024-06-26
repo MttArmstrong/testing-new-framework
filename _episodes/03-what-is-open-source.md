@@ -101,7 +101,11 @@ The requirement is that *if* you do distribute it, you do so in conformance with
 So you can make changes to a piece of software and you're not required to share the derived work with anyone else.
 And you can finesse license compatibility issues by letting the end user put everything together rather than you shipping the combined work.
 
-If you are concerned about the licensing of your dependencies, there are numerous paid and free automated tools to check for license compatibility.  For example, [Github Licensed](https://github.com/github/licensed).
+If you are concerned about the licensing of your dependencies, there are
+numerous paid and free automated tools to check for license compatibility.
+However, you are ultimately responsible for ensuring license compatibility and
+passing a tool check does necessarily mean you have no conflicts (though a
+failing check should be addressed!).
 
 > ## Activity: Is this an open source license?
 >
@@ -171,7 +175,8 @@ But there are many other creative works related to software (or not) that we mig
 The [Creative Commons](https://creativecommons.org/) (CC) is a family of licenses analogous to open-source but for things other than software.
 Another class of work that can fall under Creative Commons licenses is data.
 Be aware that if you utilize data with a CC BY-SA license, you may be limited
-in your in your licensing options.
+in your in your licensing options as CC BY-SA is similar to a copyleft, requiring
+derivative works to use the same license.
 Variants of the Creative Commons license allow you to impose various restrictions, similar to choosing different licenses for software:
 
   * CC BY (Attribution)

@@ -79,7 +79,7 @@ Assuming you're not expecting financial compensation, this kind of collaboration
 Many commercial entities find copyleft licenses scary.
 They are concerned about how far the viral nature of copyleft licenses reaches into other parts of their product.
 Legal opinions on this differ, and that is little or no case law on this yet.
-Since lawyers tend towards conservative answers, they will often advocate their commercial clients to avoid copyleft software.
+Since lawyers tend towards conservative answers, they will often advise their commercial clients to avoid copyleft software.
 As a result, many companies will not consider working with copyleft software, only permissively licensed software.
 Some (typically larger) companies consider staff working on copyleft software to be "contaminated" and will not allow them to work on other software.
 

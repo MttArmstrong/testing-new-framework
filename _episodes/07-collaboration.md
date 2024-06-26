@@ -48,7 +48,8 @@ You can also choose to use a Contributor License Agreement (CLA), which is a leg
 document that new contributors must sign prior to merging their code.  While
 protective of the software project, CLAs may limit inclusivity by acting as
 a barrier to first time contributors.  They can also create a power imbalance between
-maintainers and contributors.
+maintainers and contributors.  Practically, CLAs often require review and
+approval by the legal department of the contributor.
 
 A Developer Certificate of Origin (DCO) is a lighter agreement that allows
 contributors to confirm the code they commit is suitable for the project license.
@@ -113,7 +114,7 @@ phases where licensing and copyright concerns appear in utilizing LLMs:
 1. During training, what code has been ingested?  How do the licenses of the
 code affect what is produced?
 2. If you want to refine an LLM, what license is the model distributed with?
-3. If I use code from an LLM, what attribution does it need and will it affect
+3. If I use code generate by an LLM, what attribution does it need and will it affect
 my license?
 
 ### Ingested code
@@ -128,7 +129,10 @@ Legal challenges against AI companies have been brought up by artists and
 authors, who allege the generation of verbatim passages or replication of
 artistic style indicate training data included copyrighted material against
 the creators wishes.  Code generation hasn't been included in these lawsuits
-so far, but rulings on other domains could affect how LLMs are trained.
+so far, but rulings on other domains could affect how LLMs are trained.  If you
+are concerned about the origin of code used to train an LLM, look for LLMs that
+provide information on the training set and uses a training set aligned with your
+license and values.
 
 ### Refining an LLM
 
