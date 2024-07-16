@@ -10,7 +10,7 @@ objectives:
 - "Understand some of the reasons for preferring open-source licensing over proprietary."
 - "Understand that the choice of license is a tool for your software and your project goals."
 keypoints:
-- "Philosophical reasons include consistency with the scientific method and openness of publicly funded research results.  Another reason is that it facilitates building a community around your software."
+- "Philosophical reasons to choose open-source licenses include consistency with the scientific method and openness of publicly funded research results.  Another reason is that it facilitates building a community around your software."
 - "Most software-related business models work as well for open-source software as for proprietary."
 - "Open-source doesn't guarantee that outsiders will engage with your software.  You'll need to work to build a community of contributors and users."
 ---
@@ -55,7 +55,7 @@ In fact, there are many different business models that are commonly used around 
 | Approach | Proprietary | Copyleft  | Permissive  |
 | :-- | :-: | :-: | :-: |
 | Sell the software | yes | yes | yes |
-| “Fremium” or “dual licensing” allows free use by some, paid by others | yes | yes | yes |
+| “Freemium” or “dual licensing” allows free use by some, paid by others | yes | yes | yes |
 | Relicense to proprietary | n/a | no | yes |
 | Sell convenience, e.g., packaging, installation media, pre-compiled executables | yes | yes | yes |
 | Sell professional services around the software, e.g., training, technical support, consulting | yes | yes | yes |
@@ -79,7 +79,7 @@ Assuming you're not expecting financial compensation, this kind of collaboration
 Many commercial entities find copyleft licenses scary.
 They are concerned about how far the viral nature of copyleft licenses reaches into other parts of their product.
 Legal opinions on this differ, and that is little or no case law on this yet.
-Since lawyers tend towards conservative answers, they will often avoid their commercial clients to avoid copyleft software.
+Since lawyers tend towards conservative answers, they will often advise their commercial clients to avoid copyleft software.
 As a result, many companies will not consider working with copyleft software, only permissively licensed software.
 Some (typically larger) companies consider staff working on copyleft software to be "contaminated" and will not allow them to work on other software.
 
@@ -96,7 +96,7 @@ But some licenses, such as the [GNU Affero General Public License](https://opens
 Other ways of addressing these concerns tend to result in licenses that are not open source.
 In some cases, key modules are changed to proprietary licenses while others remain open.
 
-An article on the [Ars Technica](https://arstechnica.com/) website discusses the SaaS conundrum further: [In 2019, multiple open source companies changed course—is it the right move?](https://arstechnica.com/information-technology/2019/10/is-the-software-world-taking-too-much-from-the-open-source-community/).
+An article on the [Ars Technica](https://arstechnica.com/) website discusses the SaaS conundrum further: [In 2019, multiple open source companies changed course—is it the right move?](https://arstechnica.com/information-technology/2019/10/is-the-software-world-taking-too-much-from-the-open-source-community/)
 
 ### I want to protect my intellectual property
 
@@ -139,14 +139,14 @@ Open-source is a great tool to help you build a community around your software.
 But you shouldn't imagine that simply slapping an open source license on your software makes it sustainable.
 Besides having software that is potentially useful to others, you'll need to work at it if you want to build a community that contributes to and helps support your software.
 Many open source software projects never receive any outside contributions.
-In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it too to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
+In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it took to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
 
 > ## Discussion
 >
 > Does your research community include any truly community-based software packages?
-> Packages which are both widely used, *and* widely contributed to?
+> Packages which are both widely used *and* widely contributed to?
 >
-> If you happen to involved in such a project, what is your role?
+> If you happen to be involved in such a project, what is your role?
 > User?
 > Contributor?
 > Maintainer?
