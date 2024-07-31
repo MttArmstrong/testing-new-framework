@@ -139,7 +139,7 @@ Open-source is a great tool to help you build a community around your software.
 But you shouldn't imagine that simply slapping an open source license on your software makes it sustainable.
 Besides having software that is potentially useful to others, you'll need to work at it if you want to build a community that contributes to and helps support your software.
 Many open source software projects never receive any outside contributions.
-In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it took to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
+In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpcbp-056-20yearsopensource), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it took to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
 
 > ## Discussion
 >
