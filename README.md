@@ -23,6 +23,7 @@ If you contribute to this lesson and would like to acknowledge specific funding 
 The contributing author(s) to this lesson are:
 
 * David E. Bernholdt, Oak Ridge National Laboratory, bernholdtde@ornl.gov
+* Troy Comi, Princeton University, tcomi@princeton.edu
 * Lauren E Milechin, Massachusetts Institute of Technology, lauren.milechin@mit.edu
 * Dave Rumph, Caltech, drumph@caltech.edu
 * Michael A. Heroux, Sandia National Laboratories, maherou@sandia.gov
