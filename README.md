@@ -47,3 +47,5 @@ To cite this lesson, please consult [CITATION](CITATION).
 The INTERSECT project is supported by NSF awards [2017424](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2017424) and [2017259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2017259).
 
 Portions of this lesson are based on the *An Introduction to Software Licensing* module in the [Better Scientific Software tutorials](https://bssw-tutorial.github.io/), developed by the [IDEAS Productivity project](https://ideas-productivity.org/). This work was supported by the U.S. Department of Energy Office of Science, Office of Advanced Scientific Computing Research (ASCR), and by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy Office of Science and the National Nuclear Security Administration.
+
+This work is supported by the U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research, Next-Generation Scientific Software Technologies (NGSST) program.
