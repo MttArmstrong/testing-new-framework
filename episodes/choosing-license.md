@@ -130,7 +130,7 @@ Once you have some candidates, you should read each of them carefully -- there m
 And remember, even the list of licenses that ChooseALicense.com has analyzed is less than half of the number of OSI-approved open-source licenses.
 So don't give up!
 
-![A snapshot of https://choosealicense.com/appendix/ taken 2023-06-28](fig/choosealicense-appendix-2023-06-28.png)
+![A snapshot of https://choosealicense.com/appendix/ taken 2023-06-28](fig/choosealicense-appendix-2023-06-28.png){alt='alt text'}
 
 
 ::::::::::::::::::::::::::::::::::::: challenge
