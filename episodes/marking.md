@@ -94,9 +94,9 @@ You want enough information that if the file was distributed separately from the
 Something along the following lines:
 
 ```
-Copyright 2012 The Foo Project Developers. See the LICENSE file at the top-level directory of this distribution and at http://www.example.com/foo/LICENSE.
+Copyright 2012 The Foo Project Developers. See the LICENSE file at the top-level directory of this distribution and at https://www.example.com/foo/LICENSE.
 
-This file is part of Foo Project. It is subject to the license terms in the LICENSE file found in the top-level directory of this distribution and at http://www.example.com/foo/LICENSE. No part of Foo Project, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the LICENSE file.
+This file is part of Foo Project. It is subject to the license terms in the LICENSE file found in the top-level directory of this distribution and at https://www.example.com/foo/LICENSE. No part of Foo Project, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the LICENSE file.
 ```
 
 Consider writing scripts to help you insert and maintain the file-scope copyright and license headers you decide upon.
