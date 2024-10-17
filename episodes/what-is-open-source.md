@@ -223,7 +223,7 @@ Without this clause, commercial uses are allowed.
 
 The Creative Commons has developed a set of [badges](https://creativecommons.org/about/downloads#badges) and [icons](https://creativecommons.org/about/downloads#icons) that provide quick visual indicators of the chosen license.
 For example, this lesson is licensed under CC BY 4.0:
-![CC BY badge]({{ page.root }}/fig/cc-by.png){: width=50%}
+![CC BY badge](fig/cc-by.png){alt='alt text' style='width:25%' }
 
 There is also a "CC0 Public Domain Dedication" which can be used to indicate intent to place the artifact in the public domain.
 However this does not satisfy the legal requirements in all jurisdictions, so if you're serious about placing a work in the public domain, you might want to investigate further.

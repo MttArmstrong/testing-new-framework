@@ -12,8 +12,8 @@ home:
 template:
   package: varnish
   params:
-    time: 2024-10-17 15:51:19 +0000
-    source: https://github.com/INTERSECT-training/Making-Good-PRs
+    time: 2024-10-17 19:29:34 +0000
+    source: https://github.com/INTERSECT-training/software-licensing
     branch: main
     contact: icosden@princeton.edu
     license: CC-BY 4.0
@@ -22,19 +22,19 @@ template:
     lc: no
     dc: no
     swc: no
-    carpentry: incubator
-    carpentry_name: Lesson Description
-    carpentry_icon: incubator
+    carpentry: intersect
+    carpentry_name: A lesson that teaches about software licensing
+    carpentry_icon: intersect
     life_cycle: beta
     pre_alpha: no
     alpha: no
     beta: yes
     stable: no
     doi: ~
-    carpentry_description: Lesson Description
+    carpentry_description: A lesson that teaches about software licensing
     title: Software Licensing
     created: '2023-07-07'
-    keywords: software, research, pull, request, development, github
+    keywords: software, research, license
     episodes:
     - introduction.md
     - terminology.md

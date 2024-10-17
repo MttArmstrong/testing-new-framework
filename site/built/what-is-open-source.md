@@ -29,9 +29,9 @@ But before that, let's take a deeper look at what we mean by "open source" and s
 
 When it comes to defining open-source or free software, there are two major organizations to be aware of.
 The [Free Software Foundation](https://fsf.org) (FSF) was founded in 1985 by Richard Stallman.
-In addition to advocacy for free software [licensing](http://fsf.org/licensing), the FSF also maintains a sizable number of software products, including GNU Emacs and many of the packages at the core of the GNU/Linux operating system.
+In addition to advocacy for free software [licensing](https://fsf.org/licensing), the FSF also maintains a sizable number of software products, including GNU Emacs and many of the packages at the core of the GNU/Linux operating system.
 
-The [Open Source Initiative](http://opensource.org/) (OSI) was founded in 1998 by Eric Raymond and Bruce Perens.
+The [Open Source Initiative](https://opensource.org/) (OSI) was founded in 1998 by Eric Raymond and Bruce Perens.
 The primary mission of the OSI is to assess licenses and maintain a list of those which they judge to qualify as "open source."
 They also engage in advocacy related to open-source software.
 
@@ -223,7 +223,7 @@ Without this clause, commercial uses are allowed.
 
 The Creative Commons has developed a set of [badges](https://creativecommons.org/about/downloads#badges) and [icons](https://creativecommons.org/about/downloads#icons) that provide quick visual indicators of the chosen license.
 For example, this lesson is licensed under CC BY 4.0:
-![CC BY badge]({{ page.root }}/fig/cc-by.png){: width=50%}
+![CC BY badge](fig/cc-by.png){alt='alt text' style='width:50%' }
 
 There is also a "CC0 Public Domain Dedication" which can be used to indicate intent to place the artifact in the public domain.
 However this does not satisfy the legal requirements in all jurisdictions, so if you're serious about placing a work in the public domain, you might want to investigate further.

@@ -123,7 +123,7 @@ The badge generation site <https://shields.io> can automatically render a badge 
 
 for example, `![GitHub](https://img.shields.io/github/license/hpc-simtools/ips-framework)` which renders as ![GitHub](https://img.shields.io/github/license/hpc-simtools/ips-framework){alt='alt text'}
 
-The site also provides many license badges which can be selected explicitly, such as the badge for this lesson: `[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)` which renders as [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/){alt='alt text'}
+The site also provides many license badges which can be selected explicitly, such as the badge for this lesson: `[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)` which renders as ![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg){alt='alt text'}(https://creativecommons.org/licenses/by/4.0/)
 
 While the [shields.io](https://shields.io) site lists many licenses directly, a developer named [Lukas Himsel](https://gist.github.com/lukas-h) has posted a [Gist](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) which provides badges for even more licenses.
 
