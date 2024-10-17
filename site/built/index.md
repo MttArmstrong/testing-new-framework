@@ -14,7 +14,7 @@ This lesson intends to get you thinking, not to give you answers.
 
 :::
 
-::::::::::::::::::::::::::::::::::::::::::  caution
+::::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Important Note
 *This is not legal advice.* Consult with true experts before making any consequential decisions!
