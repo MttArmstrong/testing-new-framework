@@ -10,10 +10,16 @@
     <loc>https://INTERSECT-training.github.io/software-licensing/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/aio.html</loc>
+  </url>
+  <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/choosing-license.html</loc>
   </url>
   <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/collaboration.html</loc>
+  </url>
+  <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/images.html</loc>
   </url>
   <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/index.html</loc>
@@ -28,16 +34,28 @@
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/choosing-license.html</loc>
   </url>
   <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/collaboration.html</loc>
   </url>
   <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/marking.html</loc>
@@ -61,7 +79,13 @@
     <loc>https://INTERSECT-training.github.io/software-licensing/instructor/why-open-source.html</loc>
   </url>
   <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://INTERSECT-training.github.io/software-licensing/key-points.html</loc>
   </url>
   <url>
     <loc>https://INTERSECT-training.github.io/software-licensing/marking.html</loc>
